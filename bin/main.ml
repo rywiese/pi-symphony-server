@@ -1,4 +1,5 @@
-open Lib
+open Model
+open Service
 open Opium
 
 let health_check_handler _req =
@@ -7,8 +8,11 @@ let health_check_handler _req =
 	|> Lwt.return
 
 let list_speakers_handler _req =
-	let speaker = Speaker_service.list_speakers () |> Speaker.yojson_of_speaker in
-	Lwt.return (Response.of_json speaker)
+	Speaker_service.list_speakers ()
+	|> Speaker_response.speaker_list_response_of_speaker_list
+	|> Speaker_response.yojson_of_speaker_list_response
+	|> Response.of_json
+	|> Lwt.return
 ;;
 
 let enable_speaker_by_id_handler req =

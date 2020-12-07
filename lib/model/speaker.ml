@@ -1,7 +1,6 @@
-type speaker = {
+type t = {
 	id: string;
 	username: string;
 	host: string;
+	is_enabled: bool
 }
-
-(* let yojson_of_speaker speaker = `Assoc [ "id", `String speaker.id; "is_enabled", `Bool speaker.is_enabled ] *)
