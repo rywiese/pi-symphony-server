@@ -1,0 +1,53 @@
+added: [
+  "bin/ocamlmerlin" {"F:S18968T1607304933."}
+  "bin/ocamlmerlin-server" {"F:S8690120T1607304933."}
+  "doc/merlin" {"D"}
+  "doc/merlin/CHANGES.md" {"F:S32978T1607304933."}
+  "doc/merlin/LICENSE" {"F:S1094T1607304933."}
+  "doc/merlin/README.md" {"F:S12234T1607304933."}
+  "lib/merlin" {"D"}
+  "lib/merlin/META" {"F:S0T1607304933."}
+  "lib/merlin/dune-package" {"F:S46T1607304933."}
+  "lib/merlin/opam" {"F:S2298T1607304933."}
+  "share/emacs/site-lisp/merlin-ac.el" {"F:S5682T1607304933."}
+  "share/emacs/site-lisp/merlin-cap.el" {"F:S3042T1607304933."}
+  "share/emacs/site-lisp/merlin-company.el" {"F:S5663T1607304933."}
+  "share/emacs/site-lisp/merlin-iedit.el" {"F:S2219T1607304933."}
+  "share/emacs/site-lisp/merlin-imenu.el" {"F:S3549T1607304933."}
+  "share/emacs/site-lisp/merlin-xref.el" {"F:S1144T1607304933."}
+  "share/emacs/site-lisp/merlin.el" {"F:S74617T1607304933."}
+  "share/merlin" {"D"}
+  "share/merlin/vim" {"D"}
+  "share/merlin/vim/autoload" {"D"}
+  "share/merlin/vim/autoload/ctrlp" {"D"}
+  "share/merlin/vim/autoload/ctrlp/locate.vim" {"F:S1990T1607304933."}
+  "share/merlin/vim/autoload/ctrlp/outline.vim" {"F:S2305T1607304933."}
+  "share/merlin/vim/autoload/merlin.py" {"F:S27407T1607304933."}
+  "share/merlin/vim/autoload/merlin.vim" {"F:S23969T1607304933."}
+  "share/merlin/vim/autoload/merlin_find.vim" {"F:S1649T1607304933."}
+  "share/merlin/vim/autoload/merlin_type.vim" {"F:S6876T1607304933."}
+  "share/merlin/vim/autoload/merlin_visual.vim" {"F:S7733T1607304933."}
+  "share/merlin/vim/autoload/neomake" {"D"}
+  "share/merlin/vim/autoload/neomake/makers" {"D"}
+  "share/merlin/vim/autoload/neomake/makers/ft" {"D"}
+  "share/merlin/vim/autoload/neomake/makers/ft/ocaml.vim"
+    {"F:S273T1607304933."}
+  "share/merlin/vim/doc" {"D"}
+  "share/merlin/vim/doc/merlin.txt" {"F:S13408T1607304933."}
+  "share/merlin/vim/ftdetect" {"D"}
+  "share/merlin/vim/ftdetect/merlin.vim" {"F:S50T1607304933."}
+  "share/merlin/vim/ftplugin" {"D"}
+  "share/merlin/vim/ftplugin/merlin.vim" {"F:S50T1607304933."}
+  "share/merlin/vim/ftplugin/ocaml.vim" {"F:S59T1607304933."}
+  "share/merlin/vim/ftplugin/omlet.vim" {"F:S59T1607304933."}
+  "share/merlin/vim/ftplugin/reason.vim" {"F:S59T1607304933."}
+  "share/merlin/vim/plugin" {"D"}
+  "share/merlin/vim/plugin/merlin.vim" {"F:S625T1607304933."}
+  "share/merlin/vim/syntax" {"D"}
+  "share/merlin/vim/syntax/merlin.vim" {"F:S290T1607304933."}
+  "share/merlin/vim/syntax_checkers" {"D"}
+  "share/merlin/vim/syntax_checkers/ocaml" {"D"}
+  "share/merlin/vim/syntax_checkers/ocaml/merlin.vim" {"F:S567T1607304933."}
+  "share/merlin/vim/syntax_checkers/omlet" {"D"}
+  "share/merlin/vim/syntax_checkers/omlet/merlin.vim" {"F:S582T1607304933."}
+]

@@ -1,0 +1,1380 @@
+added: [
+  "doc/camomile" {"D"}
+  "doc/camomile/CHANGES.md" {"F:S6653T1607304911."}
+  "doc/camomile/LICENSE.md" {"F:S2184T1607304911."}
+  "doc/camomile/README.md" {"F:S3086T1607304911."}
+  "lib/camomile" {"D"}
+  "lib/camomile/META" {"F:S1500T1607304885."}
+  "lib/camomile/camomile_do_not_use.cmi" {"F:S261T1607304885."}
+  "lib/camomile/camomile_do_not_use.cmt" {"F:S2930T1607304885."}
+  "lib/camomile/camomile_do_not_use.cmx" {"F:S182T1607304885."}
+  "lib/camomile/camomile_do_not_use.ml" {"F:S59T1607304885."}
+  "lib/camomile/camomile_yuge.a" {"F:S1728T1607304885."}
+  "lib/camomile/camomile_yuge.cma" {"F:S2050T1607304885."}
+  "lib/camomile/camomile_yuge.cmxa" {"F:S188T1607304885."}
+  "lib/camomile/camomile_yuge.cmxs" {"F:S9432T1607304885."}
+  "lib/camomile/default_config" {"D"}
+  "lib/camomile/default_config/camomileDefaultConfig.a"
+    {"F:S6760T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig.cma"
+    {"F:S8061T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig.cmi"
+    {"F:S622T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig.cmt"
+    {"F:S5011T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig.cmx"
+    {"F:S458T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig.cmxa"
+    {"F:S763T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig.cmxs"
+    {"F:S15608T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig.ml"
+    {"F:S271T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig__.cmi"
+    {"F:S310T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig__.cmt"
+    {"F:S2774T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig__.cmx"
+    {"F:S155T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig__.ml"
+    {"F:S114T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig__InstallConfig.cmi"
+    {"F:S375T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig__InstallConfig.cmt"
+    {"F:S2970T1607304885."}
+  "lib/camomile/default_config/camomileDefaultConfig__InstallConfig.cmx"
+    {"F:S364T1607304885."}
+  "lib/camomile/default_config/installConfig.ml" {"F:S88T1607304885."}
+  "lib/camomile/dune-package" {"F:S7620T1607304885."}
+  "lib/camomile/dyn" {"D"}
+  "lib/camomile/dyn/camomileLibraryDyn.a" {"F:S1968T1607304885."}
+  "lib/camomile/dyn/camomileLibraryDyn.cma" {"F:S4195T1607304886."}
+  "lib/camomile/dyn/camomileLibraryDyn.cmi" {"F:S2409T1607304886."}
+  "lib/camomile/dyn/camomileLibraryDyn.cmt" {"F:S10018T1607304886."}
+  "lib/camomile/dyn/camomileLibraryDyn.cmx" {"F:S18013T1607304886."}
+  "lib/camomile/dyn/camomileLibraryDyn.cmxa" {"F:S2082T1607304886."}
+  "lib/camomile/dyn/camomileLibraryDyn.cmxs" {"F:S13608T1607304886."}
+  "lib/camomile/dyn/camomileLibraryDyn.ml" {"F:S2176T1607304886."}
+  "lib/camomile/lib_default" {"D"}
+  "lib/camomile/lib_default/camomileLibraryDefault.a" {"F:S2352T1607304886."}
+  "lib/camomile/lib_default/camomileLibraryDefault.cma"
+    {"F:S40437T1607304886."}
+  "lib/camomile/lib_default/camomileLibraryDefault.cmi"
+    {"F:S37961T1607304886."}
+  "lib/camomile/lib_default/camomileLibraryDefault.cmt"
+    {"F:S109070T1607304886."}
+  "lib/camomile/lib_default/camomileLibraryDefault.cmx"
+    {"F:S18009T1607304886."}
+  "lib/camomile/lib_default/camomileLibraryDefault.cmxa"
+    {"F:S2078T1607304886."}
+  "lib/camomile/lib_default/camomileLibraryDefault.cmxs"
+    {"F:S13924T1607304886."}
+  "lib/camomile/lib_default/camomileLibraryDefault.ml"
+    {"F:S1902T1607304886."}
+  "lib/camomile/library" {"D"}
+  "lib/camomile/library/avlTree.ml" {"F:S4702T1607304886."}
+  "lib/camomile/library/avlTree.mli" {"F:S2410T1607304886."}
+  "lib/camomile/library/bitsvect.ml" {"F:S4041T1607304886."}
+  "lib/camomile/library/bitsvect.mli" {"F:S2095T1607304886."}
+  "lib/camomile/library/byte_labeled_dag.ml" {"F:S4273T1607304886."}
+  "lib/camomile/library/byte_labeled_dag.mli" {"F:S1980T1607304886."}
+  "lib/camomile/library/bytesvect.ml" {"F:S3609T1607304886."}
+  "lib/camomile/library/bytesvect.mli" {"F:S2112T1607304886."}
+  "lib/camomile/library/camomileLibrary.a" {"F:S1107664T1607304886."}
+  "lib/camomile/library/camomileLibrary.cma" {"F:S2398781T1607304886."}
+  "lib/camomile/library/camomileLibrary.cmi" {"F:S116269T1607304886."}
+  "lib/camomile/library/camomileLibrary.cmt" {"F:S283364T1607304886."}
+  "lib/camomile/library/camomileLibrary.cmx" {"F:S18102T1607304886."}
+  "lib/camomile/library/camomileLibrary.cmxa" {"F:S33211T1607304886."}
+  "lib/camomile/library/camomileLibrary.cmxs" {"F:S1027488T1607304886."}
+  "lib/camomile/library/camomileLibrary.ml" {"F:S4508T1607304886."}
+  "lib/camomile/library/camomileLibrary__.cmi" {"F:S4411T1607304886."}
+  "lib/camomile/library/camomileLibrary__.cmt" {"F:S20681T1607304886."}
+  "lib/camomile/library/camomileLibrary__.cmx" {"F:S1279T1607304886."}
+  "lib/camomile/library/camomileLibrary__.ml" {"F:S3544T1607304886."}
+  "lib/camomile/library/camomileLibrary__AvlTree.cmi" {"F:S1879T1607304886."}
+  "lib/camomile/library/camomileLibrary__AvlTree.cmt"
+    {"F:S45358T1607304886."}
+  "lib/camomile/library/camomileLibrary__AvlTree.cmti"
+    {"F:S12495T1607304886."}
+  "lib/camomile/library/camomileLibrary__AvlTree.cmx" {"F:S1636T1607304886."}
+  "lib/camomile/library/camomileLibrary__Bitsvect.cmi"
+    {"F:S1369T1607304886."}
+  "lib/camomile/library/camomileLibrary__Bitsvect.cmt"
+    {"F:S43441T1607304886."}
+  "lib/camomile/library/camomileLibrary__Bitsvect.cmti"
+    {"F:S9721T1607304886."}
+  "lib/camomile/library/camomileLibrary__Bitsvect.cmx"
+    {"F:S1308T1607304886."}
+  "lib/camomile/library/camomileLibrary__Byte_labeled_dag.cmi"
+    {"F:S825T1607304886."}
+  "lib/camomile/library/camomileLibrary__Byte_labeled_dag.cmt"
+    {"F:S38698T1607304886."}
+  "lib/camomile/library/camomileLibrary__Byte_labeled_dag.cmti"
+    {"F:S7263T1607304886."}
+  "lib/camomile/library/camomileLibrary__Byte_labeled_dag.cmx"
+    {"F:S970T1607304886."}
+  "lib/camomile/library/camomileLibrary__Bytesvect.cmi"
+    {"F:S1372T1607304886."}
+  "lib/camomile/library/camomileLibrary__Bytesvect.cmt"
+    {"F:S36435T1607304887."}
+  "lib/camomile/library/camomileLibrary__Bytesvect.cmti"
+    {"F:S9761T1607304887."}
+  "lib/camomile/library/camomileLibrary__Bytesvect.cmx"
+    {"F:S1646T1607304887."}
+  "lib/camomile/library/camomileLibrary__CaseMap.cmi" {"F:S2078T1607304887."}
+  "lib/camomile/library/camomileLibrary__CaseMap.cmt"
+    {"F:S108113T1607304887."}
+  "lib/camomile/library/camomileLibrary__CaseMap.cmti"
+    {"F:S12067T1607304887."}
+  "lib/camomile/library/camomileLibrary__CaseMap.cmx" {"F:S1522T1607304887."}
+  "lib/camomile/library/camomileLibrary__CharEncoding.cmi"
+    {"F:S9436T1607304887."}
+  "lib/camomile/library/camomileLibrary__CharEncoding.cmt"
+    {"F:S943458T1607304887."}
+  "lib/camomile/library/camomileLibrary__CharEncoding.cmti"
+    {"F:S52252T1607304887."}
+  "lib/camomile/library/camomileLibrary__CharEncoding.cmx"
+    {"F:S5511T1607304887."}
+  "lib/camomile/library/camomileLibrary__Charmap.cmi" {"F:S2001T1607304887."}
+  "lib/camomile/library/camomileLibrary__Charmap.cmt"
+    {"F:S25907T1607304887."}
+  "lib/camomile/library/camomileLibrary__Charmap.cmti"
+    {"F:S11661T1607304887."}
+  "lib/camomile/library/camomileLibrary__Charmap.cmx" {"F:S1814T1607304887."}
+  "lib/camomile/library/camomileLibrary__ConfigInt.cmi"
+    {"F:S572T1607304887."}
+  "lib/camomile/library/camomileLibrary__ConfigInt.cmt"
+    {"F:S4599T1607304887."}
+  "lib/camomile/library/camomileLibrary__ConfigInt.cmx"
+    {"F:S227T1607304887."}
+  "lib/camomile/library/camomileLibrary__Database.cmi" {"F:S747T1607304887."}
+  "lib/camomile/library/camomileLibrary__Database.cmt"
+    {"F:S22960T1607304887."}
+  "lib/camomile/library/camomileLibrary__Database.cmti"
+    {"F:S8573T1607304887."}
+  "lib/camomile/library/camomileLibrary__Database.cmx" {"F:S754T1607304887."}
+  "lib/camomile/library/camomileLibrary__Hangul.cmi" {"F:S852T1607304887."}
+  "lib/camomile/library/camomileLibrary__Hangul.cmt" {"F:S32289T1607304887."}
+  "lib/camomile/library/camomileLibrary__Hangul.cmti" {"F:S7036T1607304887."}
+  "lib/camomile/library/camomileLibrary__Hangul.cmx" {"F:S649T1607304887."}
+  "lib/camomile/library/camomileLibrary__IMap.cmi" {"F:S4066T1607304887."}
+  "lib/camomile/library/camomileLibrary__IMap.cmt" {"F:S73607T1607304887."}
+  "lib/camomile/library/camomileLibrary__IMap.cmti" {"F:S21616T1607304887."}
+  "lib/camomile/library/camomileLibrary__IMap.cmx" {"F:S3188T1607304887."}
+  "lib/camomile/library/camomileLibrary__ISet.cmi" {"F:S4685T1607304887."}
+  "lib/camomile/library/camomileLibrary__ISet.cmt" {"F:S146140T1607304887."}
+  "lib/camomile/library/camomileLibrary__ISet.cmti" {"F:S23402T1607304887."}
+  "lib/camomile/library/camomileLibrary__ISet.cmx" {"F:S5179T1607304887."}
+  "lib/camomile/library/camomileLibrary__Locale.cmi" {"F:S676T1607304887."}
+  "lib/camomile/library/camomileLibrary__Locale.cmt" {"F:S19568T1607304887."}
+  "lib/camomile/library/camomileLibrary__Locale.cmti" {"F:S9225T1607304887."}
+  "lib/camomile/library/camomileLibrary__Locale.cmx" {"F:S858T1607304887."}
+  "lib/camomile/library/camomileLibrary__OOChannel.cmi"
+    {"F:S7822T1607304887."}
+  "lib/camomile/library/camomileLibrary__OOChannel.cmt"
+    {"F:S68731T1607304887."}
+  "lib/camomile/library/camomileLibrary__OOChannel.cmti"
+    {"F:S46626T1607304887."}
+  "lib/camomile/library/camomileLibrary__OOChannel.cmx"
+    {"F:S732T1607304887."}
+  "lib/camomile/library/camomileLibrary__StringPrep.cmi"
+    {"F:S1403T1607304887."}
+  "lib/camomile/library/camomileLibrary__StringPrep.cmt"
+    {"F:S88779T1607304887."}
+  "lib/camomile/library/camomileLibrary__StringPrep.cmti"
+    {"F:S9907T1607304887."}
+  "lib/camomile/library/camomileLibrary__StringPrep.cmx"
+    {"F:S1650T1607304887."}
+  "lib/camomile/library/camomileLibrary__StringPrep_data.cmi"
+    {"F:S3162T1607304888."}
+  "lib/camomile/library/camomileLibrary__StringPrep_data.cmt"
+    {"F:S32609T1607304888."}
+  "lib/camomile/library/camomileLibrary__StringPrep_data.cmti"
+    {"F:S15237T1607304888."}
+  "lib/camomile/library/camomileLibrary__StringPrep_data.cmx"
+    {"F:S5891T1607304888."}
+  "lib/camomile/library/camomileLibrary__SubText.cmi" {"F:S6413T1607304888."}
+  "lib/camomile/library/camomileLibrary__SubText.cmt"
+    {"F:S57295T1607304888."}
+  "lib/camomile/library/camomileLibrary__SubText.cmti"
+    {"F:S26657T1607304888."}
+  "lib/camomile/library/camomileLibrary__SubText.cmx" {"F:S2618T1607304888."}
+  "lib/camomile/library/camomileLibrary__Tbl31.cmi" {"F:S3095T1607304888."}
+  "lib/camomile/library/camomileLibrary__Tbl31.cmt" {"F:S295299T1607304888."}
+  "lib/camomile/library/camomileLibrary__Tbl31.cmti" {"F:S16312T1607304888."}
+  "lib/camomile/library/camomileLibrary__Tbl31.cmx" {"F:S6715T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCS4.cmi" {"F:S3408T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCS4.cmt" {"F:S51797T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCS4.cmti" {"F:S24365T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCS4.cmx" {"F:S2620T1607304888."}
+  "lib/camomile/library/camomileLibrary__UChar.cmi" {"F:S1430T1607304888."}
+  "lib/camomile/library/camomileLibrary__UChar.cmt" {"F:S17615T1607304888."}
+  "lib/camomile/library/camomileLibrary__UChar.cmti" {"F:S13485T1607304888."}
+  "lib/camomile/library/camomileLibrary__UChar.cmx" {"F:S1098T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCharInfo.cmi"
+    {"F:S6581T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCharInfo.cmt"
+    {"F:S107995T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCharInfo.cmti"
+    {"F:S41200T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCharInfo.cmx"
+    {"F:S3639T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCharTbl.cmi"
+    {"F:S3296T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCharTbl.cmt"
+    {"F:S25647T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCharTbl.cmti"
+    {"F:S18205T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCharTbl.cmx"
+    {"F:S3195T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCol.cmi" {"F:S3909T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCol.cmt" {"F:S341032T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCol.cmti" {"F:S19873T1607304888."}
+  "lib/camomile/library/camomileLibrary__UCol.cmx" {"F:S2304T1607304888."}
+  "lib/camomile/library/camomileLibrary__ULine.cmi" {"F:S6088T1607304888."}
+  "lib/camomile/library/camomileLibrary__ULine.cmt" {"F:S60507T1607304888."}
+  "lib/camomile/library/camomileLibrary__ULine.cmti" {"F:S29575T1607304888."}
+  "lib/camomile/library/camomileLibrary__ULine.cmx" {"F:S891T1607304888."}
+  "lib/camomile/library/camomileLibrary__UMap.cmi" {"F:S4467T1607304888."}
+  "lib/camomile/library/camomileLibrary__UMap.cmt" {"F:S44190T1607304888."}
+  "lib/camomile/library/camomileLibrary__UMap.cmti" {"F:S27051T1607304888."}
+  "lib/camomile/library/camomileLibrary__UMap.cmx" {"F:S3687T1607304888."}
+  "lib/camomile/library/camomileLibrary__UNF.cmi" {"F:S12810T1607304888."}
+  "lib/camomile/library/camomileLibrary__UNF.cmt" {"F:S211379T1607304888."}
+  "lib/camomile/library/camomileLibrary__UNF.cmti" {"F:S46115T1607304888."}
+  "lib/camomile/library/camomileLibrary__UNF.cmx" {"F:S6969T1607304888."}
+  "lib/camomile/library/camomileLibrary__UPervasives.cmi"
+    {"F:S1250T1607304888."}
+  "lib/camomile/library/camomileLibrary__UPervasives.cmt"
+    {"F:S29429T1607304888."}
+  "lib/camomile/library/camomileLibrary__UPervasives.cmti"
+    {"F:S8781T1607304888."}
+  "lib/camomile/library/camomileLibrary__UPervasives.cmx"
+    {"F:S1380T1607304888."}
+  "lib/camomile/library/camomileLibrary__URe.cmi" {"F:S9273T1607304888."}
+  "lib/camomile/library/camomileLibrary__URe.cmt" {"F:S178084T1607304889."}
+  "lib/camomile/library/camomileLibrary__URe.cmti" {"F:S30613T1607304889."}
+  "lib/camomile/library/camomileLibrary__URe.cmx" {"F:S3301T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStr.cmi" {"F:S9195T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStr.cmt" {"F:S82061T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStr.cmti"
+    {"F:S31056T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStr.cmx" {"F:S4544T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrLexer.cmi"
+    {"F:S1146T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrLexer.cmt"
+    {"F:S43025T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrLexer.cmx"
+    {"F:S13081T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrParser.cmi"
+    {"F:S1983T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrParser.cmt"
+    {"F:S112502T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrParser.cmti"
+    {"F:S7562T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrParser.cmx"
+    {"F:S5316T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrParserType.cmi"
+    {"F:S1390T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrParserType.cmt"
+    {"F:S7436T1607304889."}
+  "lib/camomile/library/camomileLibrary__UReStrParserType.cmx"
+    {"F:S407T1607304889."}
+  "lib/camomile/library/camomileLibrary__USet.cmi" {"F:S5086T1607304889."}
+  "lib/camomile/library/camomileLibrary__USet.cmt" {"F:S49838T1607304889."}
+  "lib/camomile/library/camomileLibrary__USet.cmti" {"F:S27859T1607304889."}
+  "lib/camomile/library/camomileLibrary__USet.cmx" {"F:S6089T1607304889."}
+  "lib/camomile/library/camomileLibrary__UTF16.cmi" {"F:S3465T1607304889."}
+  "lib/camomile/library/camomileLibrary__UTF16.cmt" {"F:S82290T1607304889."}
+  "lib/camomile/library/camomileLibrary__UTF16.cmti" {"F:S25016T1607304889."}
+  "lib/camomile/library/camomileLibrary__UTF16.cmx" {"F:S2836T1607304889."}
+  "lib/camomile/library/camomileLibrary__UTF8.cmi" {"F:S3344T1607304889."}
+  "lib/camomile/library/camomileLibrary__UTF8.cmt" {"F:S121289T1607304889."}
+  "lib/camomile/library/camomileLibrary__UTF8.cmti" {"F:S26191T1607304889."}
+  "lib/camomile/library/camomileLibrary__UTF8.cmx" {"F:S9849T1607304889."}
+  "lib/camomile/library/camomileLibrary__UText.cmi" {"F:S5488T1607304889."}
+  "lib/camomile/library/camomileLibrary__UText.cmt" {"F:S51454T1607304889."}
+  "lib/camomile/library/camomileLibrary__UText.cmti" {"F:S28103T1607304889."}
+  "lib/camomile/library/camomileLibrary__UText.cmx" {"F:S5747T1607304889."}
+  "lib/camomile/library/camomileLibrary__UnicodeString.cmi"
+    {"F:S3075T1607304889."}
+  "lib/camomile/library/camomileLibrary__UnicodeString.cmt"
+    {"F:S21235T1607304889."}
+  "lib/camomile/library/camomileLibrary__UnicodeString.cmx"
+    {"F:S274T1607304889."}
+  "lib/camomile/library/camomileLibrary__Unidata.cmi" {"F:S5084T1607304889."}
+  "lib/camomile/library/camomileLibrary__Unidata.cmt"
+    {"F:S103704T1607304889."}
+  "lib/camomile/library/camomileLibrary__Unidata.cmti"
+    {"F:S27794T1607304889."}
+  "lib/camomile/library/camomileLibrary__Unidata.cmx" {"F:S3166T1607304889."}
+  "lib/camomile/library/camomileLibrary__Unimap.cmi" {"F:S2306T1607304889."}
+  "lib/camomile/library/camomileLibrary__Unimap.cmt" {"F:S33510T1607304889."}
+  "lib/camomile/library/camomileLibrary__Unimap.cmti"
+    {"F:S13435T1607304889."}
+  "lib/camomile/library/camomileLibrary__Unimap.cmx" {"F:S2447T1607304889."}
+  "lib/camomile/library/camomileLibrary__XArray.cmi" {"F:S3880T1607304889."}
+  "lib/camomile/library/camomileLibrary__XArray.cmt" {"F:S51150T1607304889."}
+  "lib/camomile/library/camomileLibrary__XArray.cmti"
+    {"F:S22471T1607304889."}
+  "lib/camomile/library/camomileLibrary__XArray.cmx" {"F:S2579T1607304889."}
+  "lib/camomile/library/camomileLibrary__XString.cmi" {"F:S4867T1607304889."}
+  "lib/camomile/library/camomileLibrary__XString.cmt"
+    {"F:S47701T1607304889."}
+  "lib/camomile/library/camomileLibrary__XString.cmti"
+    {"F:S23952T1607304889."}
+  "lib/camomile/library/camomileLibrary__XString.cmx" {"F:S3578T1607304890."}
+  "lib/camomile/library/caseMap.ml" {"F:S9904T1607304890."}
+  "lib/camomile/library/caseMap.mli" {"F:S2538T1607304890."}
+  "lib/camomile/library/charEncoding.ml" {"F:S113337T1607304890."}
+  "lib/camomile/library/charEncoding.mli" {"F:S6632T1607304890."}
+  "lib/camomile/library/charmap.ml" {"F:S3719T1607304890."}
+  "lib/camomile/library/charmap.mli" {"F:S2399T1607304890."}
+  "lib/camomile/library/configInt.ml" {"F:S379T1607304890."}
+  "lib/camomile/library/database.ml" {"F:S2655T1607304890."}
+  "lib/camomile/library/database.mli" {"F:S2661T1607304890."}
+  "lib/camomile/library/hangul.ml" {"F:S3546T1607304890."}
+  "lib/camomile/library/hangul.mli" {"F:S1963T1607304890."}
+  "lib/camomile/library/iMap.ml" {"F:S5131T1607304890."}
+  "lib/camomile/library/iMap.mli" {"F:S2892T1607304890."}
+  "lib/camomile/library/iSet.ml" {"F:S10413T1607304890."}
+  "lib/camomile/library/iSet.mli" {"F:S2947T1607304890."}
+  "lib/camomile/library/locale.ml" {"F:S2934T1607304890."}
+  "lib/camomile/library/locale.mli" {"F:S3048T1607304890."}
+  "lib/camomile/library/oOChannel.ml" {"F:S4810T1607304890."}
+  "lib/camomile/library/oOChannel.mli" {"F:S5068T1607304890."}
+  "lib/camomile/library/stringPrep.ml" {"F:S7591T1607304890."}
+  "lib/camomile/library/stringPrep.mli" {"F:S2341T1607304890."}
+  "lib/camomile/library/stringPrep_data.ml" {"F:S3671T1607304890."}
+  "lib/camomile/library/stringPrep_data.mli" {"F:S2797T1607304890."}
+  "lib/camomile/library/subText.ml" {"F:S5000T1607304890."}
+  "lib/camomile/library/subText.mli" {"F:S3612T1607304890."}
+  "lib/camomile/library/tbl31.ml" {"F:S14694T1607304890."}
+  "lib/camomile/library/tbl31.mli" {"F:S2516T1607304890."}
+  "lib/camomile/library/uCS4.ml" {"F:S4503T1607304890."}
+  "lib/camomile/library/uCS4.mli" {"F:S5490T1607304890."}
+  "lib/camomile/library/uChar.ml" {"F:S2616T1607304890."}
+  "lib/camomile/library/uChar.mli" {"F:S3635T1607304890."}
+  "lib/camomile/library/uCharInfo.ml" {"F:S14656T1607304890."}
+  "lib/camomile/library/uCharInfo.mli" {"F:S9166T1607304890."}
+  "lib/camomile/library/uCharTbl.ml" {"F:S3003T1607304890."}
+  "lib/camomile/library/uCharTbl.mli" {"F:S3111T1607304890."}
+  "lib/camomile/library/uCol.ml" {"F:S30818T1607304890."}
+  "lib/camomile/library/uCol.mli" {"F:S3980T1607304890."}
+  "lib/camomile/library/uLine.ml" {"F:S6135T1607304890."}
+  "lib/camomile/library/uLine.mli" {"F:S3792T1607304890."}
+  "lib/camomile/library/uMap.ml" {"F:S3169T1607304890."}
+  "lib/camomile/library/uMap.mli" {"F:S4918T1607304890."}
+  "lib/camomile/library/uNF.ml" {"F:S14773T1607304891."}
+  "lib/camomile/library/uNF.mli" {"F:S3447T1607304891."}
+  "lib/camomile/library/uPervasives.ml" {"F:S3206T1607304891."}
+  "lib/camomile/library/uPervasives.mli" {"F:S2171T1607304891."}
+  "lib/camomile/library/uRe.ml" {"F:S15251T1607304891."}
+  "lib/camomile/library/uRe.mli" {"F:S3670T1607304891."}
+  "lib/camomile/library/uReStr.ml" {"F:S5741T1607304891."}
+  "lib/camomile/library/uReStr.mli" {"F:S4275T1607304891."}
+  "lib/camomile/library/uReStrLexer.ml" {"F:S55420T1607304891."}
+  "lib/camomile/library/uReStrParser.ml" {"F:S31219T1607304891."}
+  "lib/camomile/library/uReStrParser.mli" {"F:S417T1607304891."}
+  "lib/camomile/library/uReStrParserType.ml" {"F:S515T1607304891."}
+  "lib/camomile/library/uSet.ml" {"F:S3620T1607304891."}
+  "lib/camomile/library/uSet.mli" {"F:S4652T1607304891."}
+  "lib/camomile/library/uTF16.ml" {"F:S6183T1607304891."}
+  "lib/camomile/library/uTF16.mli" {"F:S5802T1607304891."}
+  "lib/camomile/library/uTF8.ml" {"F:S8776T1607304891."}
+  "lib/camomile/library/uTF8.mli" {"F:S6043T1607304891."}
+  "lib/camomile/library/uText.ml" {"F:S3069T1607304891."}
+  "lib/camomile/library/uText.mli" {"F:S3831T1607304891."}
+  "lib/camomile/library/unicodeString.ml" {"F:S4692T1607304891."}
+  "lib/camomile/library/unidata.ml" {"F:S13958T1607304891."}
+  "lib/camomile/library/unidata.mli" {"F:S5547T1607304891."}
+  "lib/camomile/library/unimap.ml" {"F:S4143T1607304891."}
+  "lib/camomile/library/unimap.mli" {"F:S2531T1607304891."}
+  "lib/camomile/library/xArray.ml" {"F:S4053T1607304891."}
+  "lib/camomile/library/xArray.mli" {"F:S4185T1607304891."}
+  "lib/camomile/library/xString.ml" {"F:S4039T1607304891."}
+  "lib/camomile/library/xString.mli" {"F:S3335T1607304891."}
+  "lib/camomile/opam" {"F:S1003T1607304891."}
+  "share/camomile" {"D"}
+  "share/camomile/charmaps" {"D"}
+  "share/camomile/charmaps/1026.mar" {"F:S29T1607304891."}
+  "share/camomile/charmaps/1047.mar" {"F:S29T1607304891."}
+  "share/camomile/charmaps/437.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/500.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/500V1.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/850.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/851.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/852.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/855.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/856.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/857.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/860.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/861.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/862.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/863.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/865.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/866.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/866NAV.mar" {"F:S31T1607304891."}
+  "share/camomile/charmaps/869.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/904.mar" {"F:S28T1607304891."}
+  "share/camomile/charmaps/ANSI_X3%2E110-1983.mar" {"F:S10188T1607304892."}
+  "share/camomile/charmaps/ANSI_X3%2E4-1968.mar" {"F:S3536T1607304892."}
+  "share/camomile/charmaps/ANSI_X3%2E4-1986.mar" {"F:S36T1607304892."}
+  "share/camomile/charmaps/ARABIC.mar" {"F:S32T1607304892."}
+  "share/camomile/charmaps/ARABIC7.mar" {"F:S30T1607304892."}
+  "share/camomile/charmaps/ARMSCII-8.mar" {"F:S4946T1607304892."}
+  "share/camomile/charmaps/ASCII.mar" {"F:S36T1607304892."}
+  "share/camomile/charmaps/ASMO-708.mar" {"F:S32T1607304892."}
+  "share/camomile/charmaps/ASMO_449.mar" {"F:S4687T1607304892."}
+  "share/camomile/charmaps/BIG5-CP950.mar" {"F:S26T1607304892."}
+  "share/camomile/charmaps/BIG5-HKSCS.mar" {"F:S292702T1607304892."}
+  "share/camomile/charmaps/BIG5.mar" {"F:S114307T1607304892."}
+  "share/camomile/charmaps/BIG5HKSCS.mar" {"F:S32T1607304892."}
+  "share/camomile/charmaps/BRF.mar" {"F:S4099T1607304892."}
+  "share/camomile/charmaps/BS_4730.mar" {"F:S4171T1607304892."}
+  "share/camomile/charmaps/BS_VIEWDATA.mar" {"F:S5205T1607304892."}
+  "share/camomile/charmaps/CA.mar" {"F:S39T1607304892."}
+  "share/camomile/charmaps/CN.mar" {"F:S32T1607304892."}
+  "share/camomile/charmaps/CP-AR.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP-GR.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP-HU.mar" {"F:S25T1607304892."}
+  "share/camomile/charmaps/CP-IS.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP037.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP038.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP10007.mar" {"F:S6491T1607304892."}
+  "share/camomile/charmaps/CP1004.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1026.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1047.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1124.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1125.mar" {"F:S5975T1607304892."}
+  "share/camomile/charmaps/CP1129.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1132.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1133.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1160.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1161.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1163.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1164.mar" {"F:S29T1607304892."}
+  "share/camomile/charmaps/CP1250.mar" {"F:S5975T1607304892."}
+  "share/camomile/charmaps/CP1251.mar" {"F:S5460T1607304892."}
+  "share/camomile/charmaps/CP1252.mar" {"F:S5975T1607304892."}
+  "share/camomile/charmaps/CP1253.mar" {"F:S5973T1607304892."}
+  "share/camomile/charmaps/CP1254.mar" {"F:S5975T1607304892."}
+  "share/camomile/charmaps/CP1255.mar" {"F:S6488T1607304892."}
+  "share/camomile/charmaps/CP1256.mar" {"F:S6490T1607304892."}
+  "share/camomile/charmaps/CP1257.mar" {"F:S5975T1607304892."}
+  "share/camomile/charmaps/CP1258.mar" {"F:S6490T1607304892."}
+  "share/camomile/charmaps/CP273.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP274.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP275.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP278.mar" {"F:S28T1607304892."}
+  "share/camomile/charmaps/CP280.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP281.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP284.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP285.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP290.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP297.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP367.mar" {"F:S36T1607304893."}
+  "share/camomile/charmaps/CP420.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP423.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP424.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP437.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP500.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP737.mar" {"F:S5974T1607304893."}
+  "share/camomile/charmaps/CP775.mar" {"F:S5974T1607304893."}
+  "share/camomile/charmaps/CP819.mar" {"F:S32T1607304893."}
+  "share/camomile/charmaps/CP850.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP851.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP852.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP855.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP856.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP857.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP860.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP861.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP862.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP863.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP864.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP865.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP866.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP866NAV.mar" {"F:S31T1607304893."}
+  "share/camomile/charmaps/CP868.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP869.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP870.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP871.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP874.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP875.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP880.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP891.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP903.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP904.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP905.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP918.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP922.mar" {"F:S28T1607304893."}
+  "share/camomile/charmaps/CP932.mar" {"F:S94262T1607304893."}
+  "share/camomile/charmaps/CP936.mar" {"F:S25T1607304893."}
+  "share/camomile/charmaps/CP949.mar" {"F:S152115T1607304893."}
+  "share/camomile/charmaps/CSA7-1.mar" {"F:S39T1607304893."}
+  "share/camomile/charmaps/CSA7-2.mar" {"F:S39T1607304893."}
+  "share/camomile/charmaps/CSA_T500-1983.mar" {"F:S38T1607304894."}
+  "share/camomile/charmaps/CSA_Z243%2E4-1985-1.mar" {"F:S3537T1607304894."}
+  "share/camomile/charmaps/CSA_Z243%2E4-1985-2.mar" {"F:S3537T1607304894."}
+  "share/camomile/charmaps/CSA_Z243%2E4-1985-GR.mar" {"F:S5987T1607304894."}
+  "share/camomile/charmaps/CSN_369103.mar" {"F:S4949T1607304894."}
+  "share/camomile/charmaps/CUBA.mar" {"F:S32T1607304894."}
+  "share/camomile/charmaps/CWI-2.mar" {"F:S25T1607304894."}
+  "share/camomile/charmaps/CWI.mar" {"F:S7517T1607304894."}
+  "share/camomile/charmaps/CYRILLIC.mar" {"F:S32T1607304894."}
+  "share/camomile/charmaps/Cyrillic-Asian.mar" {"F:S27T1607304894."}
+  "share/camomile/charmaps/DE.mar" {"F:S31T1607304894."}
+  "share/camomile/charmaps/DEC-MCS.mar" {"F:S4427T1607304894."}
+  "share/camomile/charmaps/DEC.mar" {"F:S29T1607304894."}
+  "share/camomile/charmaps/DIN_66003.mar" {"F:S3529T1607304894."}
+  "share/camomile/charmaps/DK.mar" {"F:S29T1607304894."}
+  "share/camomile/charmaps/DS2089.mar" {"F:S29T1607304894."}
+  "share/camomile/charmaps/DS_2089.mar" {"F:S3527T1607304894."}
+  "share/camomile/charmaps/E13B.mar" {"F:S35T1607304894."}
+  "share/camomile/charmaps/EBCDIC-AT-DE-A.mar" {"F:S3663T1607304894."}
+  "share/camomile/charmaps/EBCDIC-AT-DE.mar" {"F:S3663T1607304894."}
+  "share/camomile/charmaps/EBCDIC-BE.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-BR.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CA-FR.mar" {"F:S3663T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-AR1.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-AR2.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-BE.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-CA.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-CH.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-DK.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-ES.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-FI.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-FR.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-GB.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-GR.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-HE.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-IS.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-IT.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-NL.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-NO.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-ROECE.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-SE.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-TR.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-US.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-WT.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CP-YU.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-CYRILLIC.mar" {"F:S28T1607304894."}
+  "share/camomile/charmaps/EBCDIC-DK-NO-A.mar" {"F:S3663T1607304894."}
+  "share/camomile/charmaps/EBCDIC-DK-NO.mar" {"F:S3661T1607304895."}
+  "share/camomile/charmaps/EBCDIC-ES-A.mar" {"F:S4431T1607304895."}
+  "share/camomile/charmaps/EBCDIC-ES-S.mar" {"F:S3660T1607304895."}
+  "share/camomile/charmaps/EBCDIC-ES.mar" {"F:S4429T1607304895."}
+  "share/camomile/charmaps/EBCDIC-FI-SE-A.mar" {"F:S3663T1607304895."}
+  "share/camomile/charmaps/EBCDIC-FI-SE.mar" {"F:S3661T1607304895."}
+  "share/camomile/charmaps/EBCDIC-FR.mar" {"F:S3658T1607304895."}
+  "share/camomile/charmaps/EBCDIC-GREEK.mar" {"F:S28T1607304895."}
+  "share/camomile/charmaps/EBCDIC-INT.mar" {"F:S28T1607304895."}
+  "share/camomile/charmaps/EBCDIC-INT1.mar" {"F:S28T1607304895."}
+  "share/camomile/charmaps/EBCDIC-IS-FRISS.mar" {"F:S4437T1607304895."}
+  "share/camomile/charmaps/EBCDIC-IT.mar" {"F:S3658T1607304895."}
+  "share/camomile/charmaps/EBCDIC-JP-E.mar" {"F:S28T1607304895."}
+  "share/camomile/charmaps/EBCDIC-JP-KANA.mar" {"F:S28T1607304895."}
+  "share/camomile/charmaps/EBCDIC-PT.mar" {"F:S3658T1607304895."}
+  "share/camomile/charmaps/EBCDIC-UK.mar" {"F:S4431T1607304895."}
+  "share/camomile/charmaps/EBCDIC-US.mar" {"F:S3660T1607304895."}
+  "share/camomile/charmaps/ECMA-114.mar" {"F:S32T1607304895."}
+  "share/camomile/charmaps/ECMA-118.mar" {"F:S32T1607304895."}
+  "share/camomile/charmaps/ECMA-CYRILLIC.mar" {"F:S4952T1607304895."}
+  "share/camomile/charmaps/ELOT_928.mar" {"F:S32T1607304895."}
+  "share/camomile/charmaps/ES.mar" {"F:S3520T1607304895."}
+  "share/camomile/charmaps/ES2.mar" {"F:S4169T1607304895."}
+  "share/camomile/charmaps/EUC-JISX0213.mar" {"F:S233598T1607304895."}
+  "share/camomile/charmaps/EUC-JP-MS.mar" {"F:S127169T1607304895."}
+  "share/camomile/charmaps/EUC-JP.mar" {"F:S111533T1607304895."}
+  "share/camomile/charmaps/EUC-KR.mar" {"F:S131834T1607304895."}
+  "share/camomile/charmaps/EUC-TW.mar" {"F:S505712T1607304895."}
+  "share/camomile/charmaps/FI.mar" {"F:S34T1607304895."}
+  "share/camomile/charmaps/FR.mar" {"F:S33T1607304895."}
+  "share/camomile/charmaps/FRISS.mar" {"F:S37T1607304895."}
+  "share/camomile/charmaps/GB.mar" {"F:S29T1607304895."}
+  "share/camomile/charmaps/GB18030.mar" {"F:S1204024T1607304895."}
+  "share/camomile/charmaps/GB2312.mar" {"F:S92489T1607304895."}
+  "share/camomile/charmaps/GBK.mar" {"F:S126916T1607304895."}
+  "share/camomile/charmaps/GB_1988-80.mar" {"F:S4174T1607304895."}
+  "share/camomile/charmaps/GEORGIAN-ACADEMY.mar" {"F:S6500T1607304895."}
+  "share/camomile/charmaps/GEORGIAN-PS.mar" {"F:S6495T1607304895."}
+  "share/camomile/charmaps/GOST_19768-74.mar" {"F:S4409T1607304895."}
+  "share/camomile/charmaps/GREEK-CCITT.mar" {"F:S4175T1607304895."}
+  "share/camomile/charmaps/GREEK.mar" {"F:S32T1607304895."}
+  "share/camomile/charmaps/GREEK7-OLD.mar" {"F:S4689T1607304895."}
+  "share/camomile/charmaps/GREEK7.mar" {"F:S4685T1607304895."}
+  "share/camomile/charmaps/GREEK8.mar" {"F:S32T1607304895."}
+  "share/camomile/charmaps/HEBREW.mar" {"F:S32T1607304895."}
+  "share/camomile/charmaps/HP-GREEK8.mar" {"F:S4431T1607304895."}
+  "share/camomile/charmaps/HP-ROMAN8.mar" {"F:S5976T1607304896."}
+  "share/camomile/charmaps/HP-ROMAN9.mar" {"F:S5976T1607304896."}
+  "share/camomile/charmaps/HP-THAI8.mar" {"F:S4424T1607304896."}
+  "share/camomile/charmaps/HP-TURKISH8.mar" {"F:S5463T1607304896."}
+  "share/camomile/charmaps/HU.mar" {"F:S32T1607304896."}
+  "share/camomile/charmaps/IBM-1047.mar" {"F:S29T1607304896."}
+  "share/camomile/charmaps/IBM037.mar" {"F:S3915T1607304896."}
+  "share/camomile/charmaps/IBM038.mar" {"F:S3657T1607304896."}
+  "share/camomile/charmaps/IBM1004.mar" {"F:S5976T1607304896."}
+  "share/camomile/charmaps/IBM1026.mar" {"F:S5461T1607304896."}
+  "share/camomile/charmaps/IBM1047.mar" {"F:S3916T1607304896."}
+  "share/camomile/charmaps/IBM1124.mar" {"F:S4946T1607304896."}
+  "share/camomile/charmaps/IBM1129.mar" {"F:S5461T1607304896."}
+  "share/camomile/charmaps/IBM1132.mar" {"F:S4431T1607304896."}
+  "share/camomile/charmaps/IBM1133.mar" {"F:S4431T1607304896."}
+  "share/camomile/charmaps/IBM1160.mar" {"F:S4946T1607304896."}
+  "share/camomile/charmaps/IBM1161.mar" {"F:S4946T1607304896."}
+  "share/camomile/charmaps/IBM1162.mar" {"F:S29T1607304896."}
+  "share/camomile/charmaps/IBM1163.mar" {"F:S5461T1607304896."}
+  "share/camomile/charmaps/IBM1164.mar" {"F:S5461T1607304896."}
+  "share/camomile/charmaps/IBM256.mar" {"F:S4945T1607304896."}
+  "share/camomile/charmaps/IBM273.mar" {"F:S4430T1607304896."}
+  "share/camomile/charmaps/IBM274.mar" {"F:S3657T1607304896."}
+  "share/camomile/charmaps/IBM275.mar" {"F:S3655T1607304896."}
+  "share/camomile/charmaps/IBM277.mar" {"F:S4430T1607304896."}
+  "share/camomile/charmaps/IBM278.mar" {"F:S4430T1607304896."}
+  "share/camomile/charmaps/IBM280.mar" {"F:S4430T1607304896."}
+  "share/camomile/charmaps/IBM281.mar" {"F:S4428T1607304896."}
+  "share/camomile/charmaps/IBM284.mar" {"F:S4430T1607304896."}
+  "share/camomile/charmaps/IBM285.mar" {"F:S4430T1607304896."}
+  "share/camomile/charmaps/IBM290.mar" {"F:S4943T1607304896."}
+  "share/camomile/charmaps/IBM297.mar" {"F:S4430T1607304896."}
+  "share/camomile/charmaps/IBM367.mar" {"F:S36T1607304896."}
+  "share/camomile/charmaps/IBM420.mar" {"F:S4943T1607304896."}
+  "share/camomile/charmaps/IBM423.mar" {"F:S4426T1607304896."}
+  "share/camomile/charmaps/IBM424.mar" {"F:S5460T1607304896."}
+  "share/camomile/charmaps/IBM437.mar" {"F:S7005T1607304896."}
+  "share/camomile/charmaps/IBM500.mar" {"F:S3915T1607304896."}
+  "share/camomile/charmaps/IBM819.mar" {"F:S32T1607304896."}
+  "share/camomile/charmaps/IBM848.mar" {"F:S28T1607304896."}
+  "share/camomile/charmaps/IBM850.mar" {"F:S5460T1607304896."}
+  "share/camomile/charmaps/IBM851.mar" {"F:S5460T1607304896."}
+  "share/camomile/charmaps/IBM852.mar" {"F:S5460T1607304896."}
+  "share/camomile/charmaps/IBM855.mar" {"F:S5460T1607304896."}
+  "share/camomile/charmaps/IBM856.mar" {"F:S5460T1607304896."}
+  "share/camomile/charmaps/IBM857.mar" {"F:S4945T1607304896."}
+  "share/camomile/charmaps/IBM860.mar" {"F:S6490T1607304896."}
+  "share/camomile/charmaps/IBM861.mar" {"F:S7005T1607304896."}
+  "share/camomile/charmaps/IBM862.mar" {"F:S7520T1607304896."}
+  "share/camomile/charmaps/IBM863.mar" {"F:S7005T1607304896."}
+  "share/camomile/charmaps/IBM864.mar" {"F:S6484T1607304896."}
+  "share/camomile/charmaps/IBM865.mar" {"F:S7005T1607304897."}
+  "share/camomile/charmaps/IBM866.mar" {"F:S5975T1607304897."}
+  "share/camomile/charmaps/IBM866NAV.mar" {"F:S5463T1607304897."}
+  "share/camomile/charmaps/IBM868.mar" {"F:S5975T1607304897."}
+  "share/camomile/charmaps/IBM869.mar" {"F:S5460T1607304897."}
+  "share/camomile/charmaps/IBM870.mar" {"F:S4945T1607304897."}
+  "share/camomile/charmaps/IBM871.mar" {"F:S3915T1607304897."}
+  "share/camomile/charmaps/IBM874.mar" {"F:S4937T1607304897."}
+  "share/camomile/charmaps/IBM875.mar" {"F:S5458T1607304897."}
+  "share/camomile/charmaps/IBM880.mar" {"F:S4943T1607304897."}
+  "share/camomile/charmaps/IBM891.mar" {"F:S3528T1607304897."}
+  "share/camomile/charmaps/IBM903.mar" {"F:S3528T1607304897."}
+  "share/camomile/charmaps/IBM904.mar" {"F:S3655T1607304897."}
+  "share/camomile/charmaps/IBM905.mar" {"F:S4945T1607304897."}
+  "share/camomile/charmaps/IBM918.mar" {"F:S4945T1607304897."}
+  "share/camomile/charmaps/IBM922.mar" {"F:S4430T1607304897."}
+  "share/camomile/charmaps/IEC_P27-1.mar" {"F:S8553T1607304897."}
+  "share/camomile/charmaps/INIS-8.mar" {"F:S6230T1607304897."}
+  "share/camomile/charmaps/INIS-CYRILLIC.mar" {"F:S6237T1607304897."}
+  "share/camomile/charmaps/INIS.mar" {"F:S3522T1607304897."}
+  "share/camomile/charmaps/INVARIANT.mar" {"F:S3527T1607304897."}
+  "share/camomile/charmaps/IRV.mar" {"F:S33T1607304897."}
+  "share/camomile/charmaps/ISIRI-3342.mar" {"F:S4949T1607304897."}
+  "share/camomile/charmaps/ISO%2FTR_11548-1.mar" {"F:S33T1607304897."}
+  "share/camomile/charmaps/ISO-10646%2FUTF-8.mar" {"F:S27T1607304897."}
+  "share/camomile/charmaps/ISO-8859-1.mar" {"F:S3919T1607304897."}
+  "share/camomile/charmaps/ISO-8859-10.mar" {"F:S4950T1607304897."}
+  "share/camomile/charmaps/ISO-8859-11.mar" {"F:S4427T1607304897."}
+  "share/camomile/charmaps/ISO-8859-13.mar" {"F:S4950T1607304897."}
+  "share/camomile/charmaps/ISO-8859-14.mar" {"F:S4950T1607304897."}
+  "share/camomile/charmaps/ISO-8859-15.mar" {"F:S4950T1607304897."}
+  "share/camomile/charmaps/ISO-8859-16.mar" {"F:S5465T1607304897."}
+  "share/camomile/charmaps/ISO-8859-2.mar" {"F:S4949T1607304897."}
+  "share/camomile/charmaps/ISO-8859-3.mar" {"F:S4949T1607304897."}
+  "share/camomile/charmaps/ISO-8859-4.mar" {"F:S4949T1607304897."}
+  "share/camomile/charmaps/ISO-8859-5.mar" {"F:S4949T1607304897."}
+  "share/camomile/charmaps/ISO-8859-6.mar" {"F:S4408T1607304897."}
+  "share/camomile/charmaps/ISO-8859-7.mar" {"F:S4947T1607304897."}
+  "share/camomile/charmaps/ISO-8859-8.mar" {"F:S4947T1607304897."}
+  "share/camomile/charmaps/ISO-8859-9.mar" {"F:S4434T1607304897."}
+  "share/camomile/charmaps/ISO-8859-9E.mar" {"F:S5465T1607304897."}
+  "share/camomile/charmaps/ISO-IR-10.mar" {"F:S34T1607304897."}
+  "share/camomile/charmaps/ISO-IR-100.mar" {"F:S32T1607304897."}
+  "share/camomile/charmaps/ISO-IR-101.mar" {"F:S32T1607304897."}
+  "share/camomile/charmaps/ISO-IR-102.mar" {"F:S31T1607304897."}
+  "share/camomile/charmaps/ISO-IR-103.mar" {"F:S31T1607304897."}
+  "share/camomile/charmaps/ISO-IR-109.mar" {"F:S32T1607304897."}
+  "share/camomile/charmaps/ISO-IR-11.mar" {"F:S34T1607304897."}
+  "share/camomile/charmaps/ISO-IR-110.mar" {"F:S32T1607304897."}
+  "share/camomile/charmaps/ISO-IR-111.mar" {"F:S35T1607304897."}
+  "share/camomile/charmaps/ISO-IR-121.mar" {"F:S39T1607304897."}
+  "share/camomile/charmaps/ISO-IR-122.mar" {"F:S39T1607304897."}
+  "share/camomile/charmaps/ISO-IR-123.mar" {"F:S40T1607304897."}
+  "share/camomile/charmaps/ISO-IR-126.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-127.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-128.mar" {"F:S30T1607304898."}
+  "share/camomile/charmaps/ISO-IR-138.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-139.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-14.mar" {"F:S39T1607304898."}
+  "share/camomile/charmaps/ISO-IR-141.mar" {"F:S34T1607304898."}
+  "share/camomile/charmaps/ISO-IR-142.mar" {"F:S36T1607304898."}
+  "share/camomile/charmaps/ISO-IR-143.mar" {"F:S31T1607304898."}
+  "share/camomile/charmaps/ISO-IR-144.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-146.mar" {"F:S39T1607304898."}
+  "share/camomile/charmaps/ISO-IR-147.mar" {"F:S38T1607304898."}
+  "share/camomile/charmaps/ISO-IR-148.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-15.mar" {"F:S24T1607304898."}
+  "share/camomile/charmaps/ISO-IR-150.mar" {"F:S33T1607304898."}
+  "share/camomile/charmaps/ISO-IR-151.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-152.mar" {"F:S35T1607304898."}
+  "share/camomile/charmaps/ISO-IR-153.mar" {"F:S35T1607304898."}
+  "share/camomile/charmaps/ISO-IR-154.mar" {"F:S35T1607304898."}
+  "share/camomile/charmaps/ISO-IR-155.mar" {"F:S35T1607304898."}
+  "share/camomile/charmaps/ISO-IR-156.mar" {"F:S30T1607304898."}
+  "share/camomile/charmaps/ISO-IR-157.mar" {"F:S33T1607304898."}
+  "share/camomile/charmaps/ISO-IR-158.mar" {"F:S26T1607304898."}
+  "share/camomile/charmaps/ISO-IR-16.mar" {"F:S24T1607304898."}
+  "share/camomile/charmaps/ISO-IR-166.mar" {"F:S29T1607304898."}
+  "share/camomile/charmaps/ISO-IR-17.mar" {"F:S24T1607304898."}
+  "share/camomile/charmaps/ISO-IR-170.mar" {"F:S31T1607304898."}
+  "share/camomile/charmaps/ISO-IR-179.mar" {"F:S33T1607304898."}
+  "share/camomile/charmaps/ISO-IR-18.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-19.mar" {"F:S33T1607304898."}
+  "share/camomile/charmaps/ISO-IR-197.mar" {"F:S6494T1607304898."}
+  "share/camomile/charmaps/ISO-IR-2.mar" {"F:S33T1607304898."}
+  "share/camomile/charmaps/ISO-IR-209.mar" {"F:S6494T1607304898."}
+  "share/camomile/charmaps/ISO-IR-21.mar" {"F:S31T1607304898."}
+  "share/camomile/charmaps/ISO-IR-226.mar" {"F:S33T1607304898."}
+  "share/camomile/charmaps/ISO-IR-25.mar" {"F:S40T1607304898."}
+  "share/camomile/charmaps/ISO-IR-27.mar" {"F:S35T1607304898."}
+  "share/camomile/charmaps/ISO-IR-37.mar" {"F:S30T1607304898."}
+  "share/camomile/charmaps/ISO-IR-4.mar" {"F:S29T1607304898."}
+  "share/camomile/charmaps/ISO-IR-47.mar" {"F:S33T1607304898."}
+  "share/camomile/charmaps/ISO-IR-49.mar" {"F:S26T1607304898."}
+  "share/camomile/charmaps/ISO-IR-50.mar" {"F:S28T1607304898."}
+  "share/camomile/charmaps/ISO-IR-51.mar" {"F:S35T1607304898."}
+  "share/camomile/charmaps/ISO-IR-54.mar" {"F:S34T1607304898."}
+  "share/camomile/charmaps/ISO-IR-55.mar" {"F:S30T1607304898."}
+  "share/camomile/charmaps/ISO-IR-57.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-6.mar" {"F:S36T1607304898."}
+  "share/camomile/charmaps/ISO-IR-60.mar" {"F:S31T1607304898."}
+  "share/camomile/charmaps/ISO-IR-61.mar" {"F:S31T1607304898."}
+  "share/camomile/charmaps/ISO-IR-69.mar" {"F:S33T1607304898."}
+  "share/camomile/charmaps/ISO-IR-70.mar" {"F:S36T1607304898."}
+  "share/camomile/charmaps/ISO-IR-8-1.mar" {"F:S31T1607304898."}
+  "share/camomile/charmaps/ISO-IR-84.mar" {"F:S25T1607304898."}
+  "share/camomile/charmaps/ISO-IR-85.mar" {"F:S25T1607304898."}
+  "share/camomile/charmaps/ISO-IR-86.mar" {"F:S32T1607304898."}
+  "share/camomile/charmaps/ISO-IR-88.mar" {"F:S28T1607304899."}
+  "share/camomile/charmaps/ISO-IR-89.mar" {"F:S30T1607304899."}
+  "share/camomile/charmaps/ISO-IR-9-1.mar" {"F:S31T1607304899."}
+  "share/camomile/charmaps/ISO-IR-90.mar" {"F:S9667T1607304899."}
+  "share/camomile/charmaps/ISO-IR-92.mar" {"F:S38T1607304899."}
+  "share/camomile/charmaps/ISO-IR-98.mar" {"F:S35T1607304899."}
+  "share/camomile/charmaps/ISO-IR-99.mar" {"F:S38T1607304899."}
+  "share/camomile/charmaps/ISO646-CA.mar" {"F:S39T1607304899."}
+  "share/camomile/charmaps/ISO646-CA2.mar" {"F:S39T1607304899."}
+  "share/camomile/charmaps/ISO646-CN.mar" {"F:S32T1607304899."}
+  "share/camomile/charmaps/ISO646-CU.mar" {"F:S32T1607304899."}
+  "share/camomile/charmaps/ISO646-DE.mar" {"F:S31T1607304899."}
+  "share/camomile/charmaps/ISO646-DK.mar" {"F:S29T1607304899."}
+  "share/camomile/charmaps/ISO646-ES.mar" {"F:S24T1607304899."}
+  "share/camomile/charmaps/ISO646-ES2.mar" {"F:S25T1607304899."}
+  "share/camomile/charmaps/ISO646-FI.mar" {"F:S34T1607304899."}
+  "share/camomile/charmaps/ISO646-FR.mar" {"F:S33T1607304899."}
+  "share/camomile/charmaps/ISO646-FR1.mar" {"F:S40T1607304899."}
+  "share/camomile/charmaps/ISO646-GB.mar" {"F:S29T1607304899."}
+  "share/camomile/charmaps/ISO646-HU.mar" {"F:S32T1607304899."}
+  "share/camomile/charmaps/ISO646-IT.mar" {"F:S24T1607304899."}
+  "share/camomile/charmaps/ISO646-JP-OCR-B.mar" {"F:S38T1607304899."}
+  "share/camomile/charmaps/ISO646-JP.mar" {"F:S39T1607304899."}
+  "share/camomile/charmaps/ISO646-KR.mar" {"F:S29T1607304899."}
+  "share/camomile/charmaps/ISO646-NO.mar" {"F:S31T1607304899."}
+  "share/camomile/charmaps/ISO646-NO2.mar" {"F:S31T1607304899."}
+  "share/camomile/charmaps/ISO646-PT.mar" {"F:S24T1607304899."}
+  "share/camomile/charmaps/ISO646-PT2.mar" {"F:S25T1607304899."}
+  "share/camomile/charmaps/ISO646-SE.mar" {"F:S34T1607304899."}
+  "share/camomile/charmaps/ISO646-SE2.mar" {"F:S34T1607304899."}
+  "share/camomile/charmaps/ISO646-US.mar" {"F:S36T1607304899."}
+  "share/camomile/charmaps/ISO646-YU.mar" {"F:S34T1607304899."}
+  "share/camomile/charmaps/ISO6937.mar" {"F:S30T1607304899."}
+  "share/camomile/charmaps/ISO_10367-BOX.mar" {"F:S4884T1607304899."}
+  "share/camomile/charmaps/ISO_11548-1.mar" {"F:S4387T1607304899."}
+  "share/camomile/charmaps/ISO_2033-1983.mar" {"F:S4177T1607304899."}
+  "share/camomile/charmaps/ISO_5427%3A1981.mar" {"F:S34T1607304899."}
+  "share/camomile/charmaps/ISO_5427-EXT.mar" {"F:S4176T1607304899."}
+  "share/camomile/charmaps/ISO_5427.mar" {"F:S4172T1607304899."}
+  "share/camomile/charmaps/ISO_5428%3A1980.mar" {"F:S30T1607304899."}
+  "share/camomile/charmaps/ISO_5428.mar" {"F:S5202T1607304899."}
+  "share/camomile/charmaps/ISO_646%2EBASIC%3A1983.mar" {"F:S35T1607304899."}
+  "share/camomile/charmaps/ISO_646%2EBASIC.mar" {"F:S3525T1607304899."}
+  "share/camomile/charmaps/ISO_646%2EIRV%3A1983.mar" {"F:S33T1607304899."}
+  "share/camomile/charmaps/ISO_646%2EIRV%3A1991.mar" {"F:S36T1607304899."}
+  "share/camomile/charmaps/ISO_646%2EIRV.mar" {"F:S4175T1607304899."}
+  "share/camomile/charmaps/ISO_6937%3A1992.mar" {"F:S30T1607304900."}
+  "share/camomile/charmaps/ISO_6937-2%3A1983.mar" {"F:S31T1607304900."}
+  "share/camomile/charmaps/ISO_6937-2-25.mar" {"F:S5974T1607304900."}
+  "share/camomile/charmaps/ISO_6937-2-ADD.mar" {"F:S9517T1607304900."}
+  "share/camomile/charmaps/ISO_6937.mar" {"F:S9511T1607304900."}
+  "share/camomile/charmaps/ISO_8859-1%3A1987.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-1.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-10%3A1992.mar" {"F:S33T1607304900."}
+  "share/camomile/charmaps/ISO_8859-10.mar" {"F:S33T1607304900."}
+  "share/camomile/charmaps/ISO_8859-15.mar" {"F:S33T1607304900."}
+  "share/camomile/charmaps/ISO_8859-16%3A2001.mar" {"F:S33T1607304900."}
+  "share/camomile/charmaps/ISO_8859-16.mar" {"F:S33T1607304900."}
+  "share/camomile/charmaps/ISO_8859-2%3A1987.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-2.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-3%3A1988.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-3.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-4%3A1988.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-4.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-5%3A1988.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-5.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-6%3A1987.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-6.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-7%3A1987.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-7%3A2003.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-7.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-8%3A1988.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-8.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-9%3A1989.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-9.mar" {"F:S32T1607304900."}
+  "share/camomile/charmaps/ISO_8859-SUPP.mar" {"F:S5982T1607304900."}
+  "share/camomile/charmaps/ISO_9036.mar" {"F:S30T1607304900."}
+  "share/camomile/charmaps/IT.mar" {"F:S3520T1607304900."}
+  "share/camomile/charmaps/JIS_C6220-1969-RO.mar" {"F:S4183T1607304900."}
+  "share/camomile/charmaps/JIS_C6229-1984-B.mar" {"F:S4182T1607304900."}
+  "share/camomile/charmaps/JIS_X0201.mar" {"F:S4882T1607304900."}
+  "share/camomile/charmaps/JOHAB.mar" {"F:S156589T1607304900."}
+  "share/camomile/charmaps/JP-OCR-B.mar" {"F:S38T1607304900."}
+  "share/camomile/charmaps/JP.mar" {"F:S39T1607304900."}
+  "share/camomile/charmaps/JS.mar" {"F:S34T1607304900."}
+  "share/camomile/charmaps/JUS_I%2EB1%2E002.mar" {"F:S4178T1607304900."}
+  "share/camomile/charmaps/JUS_I%2EB1%2E003-MAC.mar" {"F:S4182T1607304900."}
+  "share/camomile/charmaps/JUS_I%2EB1%2E003-SERB.mar" {"F:S4183T1607304900."}
+  "share/camomile/charmaps/KOI-7.mar" {"F:S30T1607304900."}
+  "share/camomile/charmaps/KOI-8.mar" {"F:S4427T1607304900."}
+  "share/camomile/charmaps/KOI8-R.mar" {"F:S5975T1607304900."}
+  "share/camomile/charmaps/KOI8-RU.mar" {"F:S6491T1607304900."}
+  "share/camomile/charmaps/KOI8-T.mar" {"F:S5460T1607304900."}
+  "share/camomile/charmaps/KOI8-U.mar" {"F:S5975T1607304901."}
+  "share/camomile/charmaps/KSC5636.mar" {"F:S4173T1607304901."}
+  "share/camomile/charmaps/L1.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/L10.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/L2.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/L3.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/L4.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/L5.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/L6.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/L7.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/L8.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/LAP.mar" {"F:S26T1607304901."}
+  "share/camomile/charmaps/LATIN-9.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/LATIN-GREEK-1.mar" {"F:S4692T1607304901."}
+  "share/camomile/charmaps/LATIN-GREEK.mar" {"F:S4175T1607304901."}
+  "share/camomile/charmaps/LATIN-LAP.mar" {"F:S26T1607304901."}
+  "share/camomile/charmaps/LATIN1-2-5.mar" {"F:S35T1607304901."}
+  "share/camomile/charmaps/LATIN1.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/LATIN10.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/LATIN2.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/LATIN3.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/LATIN4.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/LATIN5.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/LATIN6.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/LATIN7.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/LATIN8.mar" {"F:S33T1607304901."}
+  "share/camomile/charmaps/MAC-CYRILLIC.mar" {"F:S6496T1607304901."}
+  "share/camomile/charmaps/MAC-IS.mar" {"F:S8035T1607304901."}
+  "share/camomile/charmaps/MAC-SAMI.mar" {"F:S7522T1607304901."}
+  "share/camomile/charmaps/MAC-UK.mar" {"F:S6490T1607304901."}
+  "share/camomile/charmaps/MAC.mar" {"F:S31T1607304901."}
+  "share/camomile/charmaps/MACEDONIAN.mar" {"F:S38T1607304901."}
+  "share/camomile/charmaps/MACINTOSH.mar" {"F:S8553T1607304901."}
+  "share/camomile/charmaps/MIK.mar" {"F:S7517T1607304901."}
+  "share/camomile/charmaps/MS-ANSI.mar" {"F:S28T1607304901."}
+  "share/camomile/charmaps/MS-ARAB.mar" {"F:S28T1607304901."}
+  "share/camomile/charmaps/MS-CYRL.mar" {"F:S28T1607304901."}
+  "share/camomile/charmaps/MS-EE.mar" {"F:S28T1607304901."}
+  "share/camomile/charmaps/MS-GREEK.mar" {"F:S28T1607304901."}
+  "share/camomile/charmaps/MS-HEBR.mar" {"F:S28T1607304901."}
+  "share/camomile/charmaps/MS-TURK.mar" {"F:S28T1607304901."}
+  "share/camomile/charmaps/MS936.mar" {"F:S25T1607304901."}
+  "share/camomile/charmaps/MSZ_7795%2E3.mar" {"F:S4174T1607304901."}
+  "share/camomile/charmaps/NAPLPS.mar" {"F:S38T1607304901."}
+  "share/camomile/charmaps/NATS-DANO.mar" {"F:S5203T1607304901."}
+  "share/camomile/charmaps/NATS-SEFI.mar" {"F:S5205T1607304901."}
+  "share/camomile/charmaps/NC_NC00-10%3A81.mar" {"F:S32T1607304901."}
+  "share/camomile/charmaps/NC_NC00-10.mar" {"F:S3528T1607304901."}
+  "share/camomile/charmaps/NEXT.mar" {"F:S30T1607304901."}
+  "share/camomile/charmaps/NEXTSTEP.mar" {"F:S5973T1607304902."}
+  "share/camomile/charmaps/NF_Z_62-010.mar" {"F:S3529T1607304902."}
+  "share/camomile/charmaps/NF_Z_62-010_%281973%29.mar"
+    {"F:S3536T1607304902."}
+  "share/camomile/charmaps/NO.mar" {"F:S31T1607304902."}
+  "share/camomile/charmaps/NO2.mar" {"F:S31T1607304902."}
+  "share/camomile/charmaps/NS_4551-1.mar" {"F:S4175T1607304902."}
+  "share/camomile/charmaps/NS_4551-2.mar" {"F:S3527T1607304902."}
+  "share/camomile/charmaps/OS2LATIN1.mar" {"F:S29T1607304902."}
+  "share/camomile/charmaps/PT.mar" {"F:S3522T1607304902."}
+  "share/camomile/charmaps/PT154.mar" {"F:S5459T1607304902."}
+  "share/camomile/charmaps/PT2.mar" {"F:S3523T1607304902."}
+  "share/camomile/charmaps/R8.mar" {"F:S31T1607304902."}
+  "share/camomile/charmaps/R9.mar" {"F:S31T1607304902."}
+  "share/camomile/charmaps/REF.mar" {"F:S35T1607304902."}
+  "share/camomile/charmaps/RK1048.mar" {"F:S5460T1607304902."}
+  "share/camomile/charmaps/ROMAN8.mar" {"F:S31T1607304902."}
+  "share/camomile/charmaps/ROMAN9.mar" {"F:S31T1607304902."}
+  "share/camomile/charmaps/RUSCII.mar" {"F:S28T1607304902."}
+  "share/camomile/charmaps/SAMI.mar" {"F:S4911T1607304902."}
+  "share/camomile/charmaps/SE.mar" {"F:S34T1607304902."}
+  "share/camomile/charmaps/SE2.mar" {"F:S34T1607304902."}
+  "share/camomile/charmaps/SEN_850200_B.mar" {"F:S4176T1607304902."}
+  "share/camomile/charmaps/SEN_850200_C.mar" {"F:S3530T1607304902."}
+  "share/camomile/charmaps/SERBIAN.mar" {"F:S39T1607304902."}
+  "share/camomile/charmaps/SHIFT_JIS.mar" {"F:S88715T1607304902."}
+  "share/camomile/charmaps/SHIFT_JISX0213.mar" {"F:S230707T1607304902."}
+  "share/camomile/charmaps/SJIS.mar" {"F:S31T1607304902."}
+  "share/camomile/charmaps/SS636127.mar" {"F:S34T1607304902."}
+  "share/camomile/charmaps/STRK1048-2002.mar" {"F:S28T1607304902."}
+  "share/camomile/charmaps/ST_SEV_358-88.mar" {"F:S35T1607304902."}
+  "share/camomile/charmaps/T%2E101-G2.mar" {"F:S10180T1607304902."}
+  "share/camomile/charmaps/T%2E61-7BIT.mar" {"F:S3527T1607304902."}
+  "share/camomile/charmaps/T%2E61-8BIT.mar" {"F:S9514T1607304902."}
+  "share/camomile/charmaps/T%2E61.mar" {"F:S31T1607304902."}
+  "share/camomile/charmaps/TCVN-5712.mar" {"F:S32T1607304902."}
+  "share/camomile/charmaps/TCVN.mar" {"F:S32T1607304902."}
+  "share/camomile/charmaps/TCVN5712-1%3A1993.mar" {"F:S32T1607304902."}
+  "share/camomile/charmaps/TCVN5712-1.mar" {"F:S6158T1607304902."}
+  "share/camomile/charmaps/THAI8.mar" {"F:S30T1607304902."}
+  "share/camomile/charmaps/TIS-620.mar" {"F:S4423T1607304902."}
+  "share/camomile/charmaps/TIS620%2E2529-1.mar" {"F:S29T1607304902."}
+  "share/camomile/charmaps/TIS620%2E2533-0.mar" {"F:S29T1607304902."}
+  "share/camomile/charmaps/TIS620-0.mar" {"F:S29T1607304902."}
+  "share/camomile/charmaps/TIS620.mar" {"F:S29T1607304902."}
+  "share/camomile/charmaps/TURKISH8.mar" {"F:S33T1607304902."}
+  "share/camomile/charmaps/UK.mar" {"F:S29T1607304902."}
+  "share/camomile/charmaps/US-ASCII.mar" {"F:S36T1607304902."}
+  "share/camomile/charmaps/US.mar" {"F:S36T1607304902."}
+  "share/camomile/charmaps/UTF-8.mar" {"F:S726796T1607304903."}
+  "share/camomile/charmaps/VIDEOTEX-SUPPL.mar" {"F:S9672T1607304903."}
+  "share/camomile/charmaps/VISCII.mar" {"F:S4947T1607304903."}
+  "share/camomile/charmaps/WIN-SAMI-2.mar" {"F:S5464T1607304903."}
+  "share/camomile/charmaps/WINBALTRIM.mar" {"F:S28T1607304903."}
+  "share/camomile/charmaps/WINDOWS-31J.mar" {"F:S104418T1607304903."}
+  "share/camomile/charmaps/WINDOWS-874.mar" {"F:S28T1607304903."}
+  "share/camomile/charmaps/WINDOWS-936.mar" {"F:S25T1607304903."}
+  "share/camomile/charmaps/WINDOWS-SAMI2.mar" {"F:S32T1607304903."}
+  "share/camomile/charmaps/WS2.mar" {"F:S32T1607304903."}
+  "share/camomile/charmaps/X0201.mar" {"F:S31T1607304903."}
+  "share/camomile/charmaps/YU.mar" {"F:S34T1607304903."}
+  "share/camomile/database" {"D"}
+  "share/camomile/database/ASCII_Hex_Digit.mar" {"F:S2405T1607304903."}
+  "share/camomile/database/ASCII_Hex_Digit_set.mar" {"F:S43T1607304903."}
+  "share/camomile/database/Alphabetic.mar" {"F:S4875T1607304903."}
+  "share/camomile/database/Alphabetic_set.mar" {"F:S3881T1607304903."}
+  "share/camomile/database/Bidi_Control.mar" {"F:S2405T1607304903."}
+  "share/camomile/database/Bidi_Control_set.mar" {"F:S41T1607304903."}
+  "share/camomile/database/Default_Ignorable_Code_Point.mar"
+    {"F:S3691T1607304903."}
+  "share/camomile/database/Default_Ignorable_Code_Point_set.mar"
+    {"F:S196T1607304903."}
+  "share/camomile/database/Deprecated.mar" {"F:S2437T1607304903."}
+  "share/camomile/database/Deprecated_set.mar" {"F:S41T1607304903."}
+  "share/camomile/database/Diacritic.mar" {"F:S3592T1607304903."}
+  "share/camomile/database/Diacritic_set.mar" {"F:S835T1607304903."}
+  "share/camomile/database/Extender.mar" {"F:S2597T1607304903."}
+  "share/camomile/database/Extender_set.mar" {"F:S135T1607304903."}
+  "share/camomile/database/Grapheme_Base.mar" {"F:S5195T1607304903."}
+  "share/camomile/database/Grapheme_Base_set.mar" {"F:S3846T1607304903."}
+  "share/camomile/database/Grapheme_Extend.mar" {"F:S3560T1607304903."}
+  "share/camomile/database/Grapheme_Extend_set.mar" {"F:S1187T1607304903."}
+  "share/camomile/database/Grapheme_Link.mar" {"F:S2533T1607304903."}
+  "share/camomile/database/Grapheme_Link_set.mar" {"F:S151T1607304903."}
+  "share/camomile/database/Hex_Digit.mar" {"F:S2437T1607304903."}
+  "share/camomile/database/Hex_Digit_set.mar" {"F:S85T1607304903."}
+  "share/camomile/database/Hyphen.mar" {"F:S2597T1607304903."}
+  "share/camomile/database/Hyphen_set.mar" {"F:S119T1607304903."}
+  "share/camomile/database/IDS_Binary_Operator.mar" {"F:S2405T1607304903."}
+  "share/camomile/database/IDS_Binary_Operator_set.mar" {"F:S41T1607304903."}
+  "share/camomile/database/IDS_Trinary_Operator.mar" {"F:S2405T1607304903."}
+  "share/camomile/database/IDS_Trinary_Operator_set.mar"
+    {"F:S31T1607304903."}
+  "share/camomile/database/ID_Continue.mar" {"F:S4907T1607304903."}
+  "share/camomile/database/ID_Continue_set.mar" {"F:S4363T1607304903."}
+  "share/camomile/database/ID_Start.mar" {"F:S4875T1607304903."}
+  "share/camomile/database/ID_Start_set.mar" {"F:S3365T1607304903."}
+  "share/camomile/database/Ideographic.mar" {"F:S3112T1607304903."}
+  "share/camomile/database/Ideographic_set.mar" {"F:S115T1607304903."}
+  "share/camomile/database/Join_Control.mar" {"F:S2405T1607304904."}
+  "share/camomile/database/Join_Control_set.mar" {"F:S31T1607304904."}
+  "share/camomile/database/Logical_Order_Exception.mar"
+    {"F:S2405T1607304904."}
+  "share/camomile/database/Logical_Order_Exception_set.mar"
+    {"F:S41T1607304904."}
+  "share/camomile/database/Lowercase.mar" {"F:S3464T1607304904."}
+  "share/camomile/database/Lowercase_set.mar" {"F:S4417T1607304904."}
+  "share/camomile/database/Math.mar" {"F:S3432T1607304904."}
+  "share/camomile/database/Math_set.mar" {"F:S1031T1607304904."}
+  "share/camomile/database/Noncharacter_Code_Point.mar"
+    {"F:S2952T1607304904."}
+  "share/camomile/database/Noncharacter_Code_Point_set.mar"
+    {"F:S273T1607304904."}
+  "share/camomile/database/Other_Alphabetic.mar" {"F:S3464T1607304904."}
+  "share/camomile/database/Other_Alphabetic_set.mar" {"F:S899T1607304904."}
+  "share/camomile/database/Other_Default_Ignorable_Code_Point.mar"
+    {"F:S3048T1607304904."}
+  "share/camomile/database/Other_Default_Ignorable_Code_Point_set.mar"
+    {"F:S83T1607304904."}
+  "share/camomile/database/Other_Grapheme_Extend.mar" {"F:S2405T1607304904."}
+  "share/camomile/database/Other_Grapheme_Extend_set.mar"
+    {"F:S35T1607304904."}
+  "share/camomile/database/Other_Lowercase.mar" {"F:S2501T1607304904."}
+  "share/camomile/database/Other_Lowercase_set.mar" {"F:S91T1607304904."}
+  "share/camomile/database/Other_Math.mar" {"F:S3176T1607304904."}
+  "share/camomile/database/Other_Math_set.mar" {"F:S815T1607304904."}
+  "share/camomile/database/Other_Uppercase.mar" {"F:S2437T1607304904."}
+  "share/camomile/database/Other_Uppercase_set.mar" {"F:S41T1607304904."}
+  "share/camomile/database/Quotation_Mark.mar" {"F:S2533T1607304904."}
+  "share/camomile/database/Quotation_Mark_set.mar" {"F:S149T1607304904."}
+  "share/camomile/database/Radical.mar" {"F:S2437T1607304904."}
+  "share/camomile/database/Radical_set.mar" {"F:S51T1607304904."}
+  "share/camomile/database/Soft_Dotted.mar" {"F:S2533T1607304904."}
+  "share/camomile/database/Soft_Dotted_set.mar" {"F:S89T1607304904."}
+  "share/camomile/database/Terminal_Punctuation.mar" {"F:S2885T1607304904."}
+  "share/camomile/database/Terminal_Punctuation_set.mar"
+    {"F:S397T1607304904."}
+  "share/camomile/database/Unified_Ideograph.mar" {"F:S3048T1607304904."}
+  "share/camomile/database/Unified_Ideograph_set.mar" {"F:S155T1607304904."}
+  "share/camomile/database/Uppercase.mar" {"F:S3432T1607304904."}
+  "share/camomile/database/Uppercase_set.mar" {"F:S4357T1607304904."}
+  "share/camomile/database/White_Space.mar" {"F:S2501T1607304904."}
+  "share/camomile/database/White_Space_set.mar" {"F:S103T1607304904."}
+  "share/camomile/database/XID_Continue.mar" {"F:S4939T1607304904."}
+  "share/camomile/database/XID_Continue_set.mar" {"F:S4437T1607304904."}
+  "share/camomile/database/XID_Start.mar" {"F:S4907T1607304904."}
+  "share/camomile/database/XID_Start_set.mar" {"F:S3453T1607304904."}
+  "share/camomile/database/acset.mar" {"F:S1459743T1607304904."}
+  "share/camomile/database/age.mar" {"F:S21751T1607304904."}
+  "share/camomile/database/allkeys.mar" {"F:S170560T1607304904."}
+  "share/camomile/database/case_folding.mar" {"F:S11098T1607304904."}
+  "share/camomile/database/combined_class.mar" {"F:S8295T1607304905."}
+  "share/camomile/database/combined_class_map.mar" {"F:S2062T1607304905."}
+  "share/camomile/database/composition.mar" {"F:S17679T1607304905."}
+  "share/camomile/database/composition_exclusion.mar" {"F:S3112T1607304905."}
+  "share/camomile/database/composition_exclusion_set.mar"
+    {"F:S391T1607304905."}
+  "share/camomile/database/d1.mar" {"F:S2629T1607304905."}
+  "share/camomile/database/d2.mar" {"F:S5486T1607304905."}
+  "share/camomile/database/decomposition.mar" {"F:S135444T1607304905."}
+  "share/camomile/database/general_category.mar" {"F:S14502T1607304905."}
+  "share/camomile/database/general_category_map.mar" {"F:S28509T1607304905."}
+  "share/camomile/database/iscsi_prohibited.mar" {"F:S5710T1607304905."}
+  "share/camomile/database/map_b1.mar" {"F:S5431T1607304905."}
+  "share/camomile/database/map_b1b2.mar" {"F:S17630T1607304905."}
+  "share/camomile/database/mib_prohibited.mar" {"F:S5710T1607304905."}
+  "share/camomile/database/nameprep_prohibited.mar" {"F:S5710T1607304905."}
+  "share/camomile/database/nodeprep_prohibited.mar" {"F:S5710T1607304905."}
+  "share/camomile/database/resourceprep_prohibited.mar"
+    {"F:S5710T1607304905."}
+  "share/camomile/database/saslprep_map.mar" {"F:S6492T1607304905."}
+  "share/camomile/database/saslprep_prohibited.mar" {"F:S5710T1607304905."}
+  "share/camomile/database/scripts.mar" {"F:S10883T1607304905."}
+  "share/camomile/database/scripts_map.mar" {"F:S11181T1607304905."}
+  "share/camomile/database/special_casing.mar" {"F:S7958T1607304905."}
+  "share/camomile/database/to_lower1.mar" {"F:S7821T1607304905."}
+  "share/camomile/database/to_title1.mar" {"F:S7841T1607304905."}
+  "share/camomile/database/to_upper1.mar" {"F:S7841T1607304905."}
+  "share/camomile/database/trace_prohibited.mar" {"F:S4849T1607304905."}
+  "share/camomile/locales" {"D"}
+  "share/camomile/locales/af.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/af_ZA.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/am.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/am_ET.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar.mar" {"F:S170851T1607304905."}
+  "share/camomile/locales/ar_AE.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_BH.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_DZ.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_EG.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_IN.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_IQ.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_JO.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_KW.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_LB.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_LY.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_MA.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_OM.mar" {"F:S22T1607304905."}
+  "share/camomile/locales/ar_QA.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/ar_SA.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/ar_SD.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/ar_SY.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/ar_TN.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/ar_YE.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/az.mar" {"F:S170562T1607304906."}
+  "share/camomile/locales/az_AZ.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/be.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/be_BY.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/bg.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/bg_BG.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/bn.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/bn_IN.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/ca.mar" {"F:S170691T1607304906."}
+  "share/camomile/locales/ca_ES.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/ca_ES_PREEURO.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/cs.mar" {"F:S170726T1607304906."}
+  "share/camomile/locales/cs_CZ.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/da.mar" {"F:S170870T1607304906."}
+  "share/camomile/locales/da_DK.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_AT.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_AT_PREEURO.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_BE.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_CH.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_DE.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_DE_PREEURO.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_LI.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_LU.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de_LU_PREEURO.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/de__PHONEBOOK.mar" {"F:S170682T1607304906."}
+  "share/camomile/locales/div.mar" {"F:S170562T1607304906."}
+  "share/camomile/locales/div_MV.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/el.mar" {"F:S170562T1607304906."}
+  "share/camomile/locales/el_GR.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/el_GR_PREEURO.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en_AS.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en_AU.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en_BE.mar" {"F:S170562T1607304906."}
+  "share/camomile/locales/en_BE_PREEURO.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en_BW.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en_BZ.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en_CA.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en_GB.mar" {"F:S22T1607304906."}
+  "share/camomile/locales/en_GB_EURO.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_GU.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_HK.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_IE.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_IE_PREEURO.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_IN.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_JM.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_MH.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_MP.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_MT.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_NZ.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_PH.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_SG.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_TT.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_UM.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_US.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_US_POSIX.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_VI.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_ZA.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/en_ZW.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/eo.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es.mar" {"F:S170590T1607304907."}
+  "share/camomile/locales/es_AR.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_BO.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_CL.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_CO.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_CR.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_DO.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_EC.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_ES.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_ES_PREEURO.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_GT.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_HN.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_MX.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_NI.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_PA.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_PE.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_PR.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_PY.mar" {"F:S22T1607304907."}
+  "share/camomile/locales/es_SV.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/es_US.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/es_UY.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/es_VE.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/es__TRADITIONAL.mar" {"F:S170668T1607304908."}
+  "share/camomile/locales/et.mar" {"F:S170830T1607304908."}
+  "share/camomile/locales/et_EE.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/eu.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/eu_ES.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/eu_ES_PREEURO.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fa.mar" {"F:S170562T1607304908."}
+  "share/camomile/locales/fa_IN.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fa_IR.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fi.mar" {"F:S170818T1607304908."}
+  "share/camomile/locales/fi_FI.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fi_FI_PREEURO.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fo.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fo_FO.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr.mar" {"F:S170610T1607304908."}
+  "share/camomile/locales/fr_BE.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr_BE_PREEURO.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr_CA.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr_CH.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr_FR.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr_FR_PREEURO.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr_LU.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr_LU_PREEURO.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/fr_MC.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/ga.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/ga_IE.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/ga_IE_PREEURO.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/gl.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/gl_ES.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/gl_ES_PREEURO.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/gu.mar" {"F:S170562T1607304908."}
+  "share/camomile/locales/gu_IN.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/gv.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/gv_GB.mar" {"F:S22T1607304908."}
+  "share/camomile/locales/he.mar" {"F:S170544T1607304908."}
+  "share/camomile/locales/he_IL.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/hi.mar" {"F:S186356T1607304909."}
+  "share/camomile/locales/hi_IN.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/hi__DIRECT.mar" {"F:S173772T1607304909."}
+  "share/camomile/locales/hr.mar" {"F:S170803T1607304909."}
+  "share/camomile/locales/hr_HR.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/hu.mar" {"F:S170934T1607304909."}
+  "share/camomile/locales/hu_HU.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/hy.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/hy_AM.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/hy_AM_REVISED.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/id.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/id_ID.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/index.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/is.mar" {"F:S170794T1607304909."}
+  "share/camomile/locales/is_IS.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/it.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/it_CH.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/it_IT.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/it_IT_PREEURO.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/iw.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/iw_IL.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/ja.mar" {"F:S461934T1607304909."}
+  "share/camomile/locales/ja_JP.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/ka.mar" {"F:S170562T1607304909."}
+  "share/camomile/locales/ka_GE.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/kk.mar" {"F:S170562T1607304909."}
+  "share/camomile/locales/kk_KZ.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/kl.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/kl_GL.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/kn.mar" {"F:S170562T1607304909."}
+  "share/camomile/locales/kn_IN.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/ko.mar" {"F:S985704T1607304909."}
+  "share/camomile/locales/ko_KR.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/kok.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/kok_IN.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/kw.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/kw_GB.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/ky.mar" {"F:S170562T1607304909."}
+  "share/camomile/locales/ky_KG.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/lt.mar" {"F:S170780T1607304909."}
+  "share/camomile/locales/lt_LT.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/lv.mar" {"F:S170758T1607304909."}
+  "share/camomile/locales/lv_LV.mar" {"F:S22T1607304909."}
+  "share/camomile/locales/mk.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/mk_MK.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/mn.mar" {"F:S170562T1607304910."}
+  "share/camomile/locales/mn_MN.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/mr.mar" {"F:S170562T1607304910."}
+  "share/camomile/locales/mr_IN.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/ms.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/ms_BN.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/ms_MY.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/mt.mar" {"F:S170702T1607304910."}
+  "share/camomile/locales/mt_MT.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/nb.mar" {"F:S170726T1607304910."}
+  "share/camomile/locales/nb_NO.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/nl.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/nl_BE.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/nl_BE_PREEURO.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/nl_NL.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/nl_NL_PREEURO.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/nn.mar" {"F:S170726T1607304910."}
+  "share/camomile/locales/nn_NO.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/no.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/no_NO.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/no_NO_NY.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/om.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/om_ET.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/om_KE.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/pa.mar" {"F:S170562T1607304910."}
+  "share/camomile/locales/pa_IN.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/pl.mar" {"F:S170786T1607304910."}
+  "share/camomile/locales/pl_PL.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/pt.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/pt_BR.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/pt_PT.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/pt_PT_PREEURO.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/ro.mar" {"F:S170702T1607304910."}
+  "share/camomile/locales/ro_RO.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/root.mar" {"F:S170562T1607304910."}
+  "share/camomile/locales/ru.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/ru_RU.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/ru_UA.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/sa.mar" {"F:S170562T1607304910."}
+  "share/camomile/locales/sa_IN.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/sh.mar" {"F:S170803T1607304910."}
+  "share/camomile/locales/sh_YU.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/sk.mar" {"F:S170810T1607304910."}
+  "share/camomile/locales/sk_SK.mar" {"F:S22T1607304910."}
+  "share/camomile/locales/sl.mar" {"F:S170646T1607304910."}
+  "share/camomile/locales/sl_SI.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/so.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/so_DJ.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/so_ET.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/so_KE.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/so_SO.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/sq.mar" {"F:S170562T1607304911."}
+  "share/camomile/locales/sq_AL.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/sr.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/sr_YU.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/sv.mar" {"F:S170858T1607304911."}
+  "share/camomile/locales/sv_FI.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/sv_SE.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/sw.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/sw_KE.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/sw_TZ.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/syr.mar" {"F:S170562T1607304911."}
+  "share/camomile/locales/syr_SY.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/ta.mar" {"F:S170562T1607304911."}
+  "share/camomile/locales/ta_IN.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/te.mar" {"F:S170562T1607304911."}
+  "share/camomile/locales/te_IN.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/test_1.mar" {"F:S170801T1607304911."}
+  "share/camomile/locales/th.mar" {"F:S170780T1607304911."}
+  "share/camomile/locales/th_TH.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/ti.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/ti_ER.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/ti_ET.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/tr.mar" {"F:S170716T1607304911."}
+  "share/camomile/locales/tr_TR.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/tt.mar" {"F:S170562T1607304911."}
+  "share/camomile/locales/tt_RU.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/uk.mar" {"F:S170554T1607304911."}
+  "share/camomile/locales/uk_UA.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/ur.mar" {"F:S170562T1607304911."}
+  "share/camomile/locales/ur_PK.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/uz.mar" {"F:S170562T1607304911."}
+  "share/camomile/locales/uz_UZ.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/vi.mar" {"F:S171114T1607304911."}
+  "share/camomile/locales/vi_VN.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/zh.mar" {"F:S464550T1607304911."}
+  "share/camomile/locales/zh_CN.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/zh_HK.mar" {"F:S716320T1607304911."}
+  "share/camomile/locales/zh_MO.mar" {"F:S716320T1607304911."}
+  "share/camomile/locales/zh_SG.mar" {"F:S22T1607304911."}
+  "share/camomile/locales/zh_TW.mar" {"F:S716320T1607304911."}
+  "share/camomile/locales/zh_TW_STROKE.mar" {"F:S716200T1607304911."}
+  "share/camomile/locales/zh__PINYIN.mar" {"F:S1033482T1607304911."}
+  "share/camomile/mappings" {"D"}
+  "share/camomile/mappings/cns11643.mar" {"F:S661491T1607304911."}
+  "share/camomile/mappings/gb2312.mar" {"F:S96736T1607304911."}
+  "share/camomile/mappings/iso88597.mar" {"F:S5222T1607304911."}
+  "share/camomile/mappings/jisx0201.mar" {"F:S4957T1607304911."}
+  "share/camomile/mappings/jisx0208.mar" {"F:S92567T1607304911."}
+  "share/camomile/mappings/jisx0212.mar" {"F:S85794T1607304911."}
+  "share/camomile/mappings/ksc5601.mar" {"F:S126247T1607304911."}
+]
