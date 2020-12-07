@@ -1,4 +1,4 @@
 ( library
 	(name service)
-	(libraries model)
+	(libraries data model)
 )
