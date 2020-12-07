@@ -1,0 +1,22 @@
+# 1 "src/compiler-functions/ge_410_and_lt_412.ml"
+let error_of_exn exn =
+  match Location.error_of_exn exn with
+  | Some (`Ok exn) -> Some exn
+  | Some `Already_displayed -> None
+  | None -> None
+
+let get_load_paths () =
+  Load_path.get_paths ()
+
+let load_path_init l =
+  Load_path.init l
+
+let get_unboxed_types () =
+  !Clflags.unboxed_types
+
+let set_unboxed_types b =
+  Clflags.unboxed_types := b
+
+let may_map = Option.map
+
+let bad_docstring t = Warnings.Bad_docstring t

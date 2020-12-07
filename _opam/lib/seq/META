@@ -1,0 +1,7 @@
+version = "0.2.2"
+description = ""
+requires = ""
+archive(byte) = "seq.cma"
+archive(native) = "seq.cmxa"
+plugin(byte) = "seq.cma"
+plugin(native) = "seq.cmxs"

@@ -1,0 +1,17 @@
+added: [
+  "doc/hmap" {"D"}
+  "doc/hmap/CHANGES.md" {"F:S162T1607301359."}
+  "doc/hmap/LICENSE.md" {"F:S768T1607301359."}
+  "doc/hmap/README.md" {"F:S1268T1607301359."}
+  "lib/hmap" {"D"}
+  "lib/hmap/META" {"F:S195T1607301358."}
+  "lib/hmap/hmap.a" {"F:S12784T1607301358."}
+  "lib/hmap/hmap.cma" {"F:S37390T1607301359."}
+  "lib/hmap/hmap.cmi" {"F:S8748T1607301359."}
+  "lib/hmap/hmap.cmti" {"F:S46044T1607301359."}
+  "lib/hmap/hmap.cmx" {"F:S2426T1607301359."}
+  "lib/hmap/hmap.cmxa" {"F:S302T1607301359."}
+  "lib/hmap/hmap.cmxs" {"F:S22772T1607301359."}
+  "lib/hmap/hmap.mli" {"F:S7002T1607301359."}
+  "lib/hmap/opam" {"F:S611T1607301358."}
+]

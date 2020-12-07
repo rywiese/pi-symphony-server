@@ -1,0 +1,14 @@
+(lang dune 2.7)
+(name csexp)
+(version 1.3.2)
+(library
+ (name csexp)
+ (kind normal)
+ (archives (byte csexp.cma) (native csexp.cmxa))
+ (plugins (byte csexp.cma) (native csexp.cmxs))
+ (native_archives csexp.a)
+ (requires result)
+ (main_module_name Csexp)
+ (modes byte native)
+ (modules
+  (singleton (name Csexp) (obj_name csexp) (visibility public) (impl) (intf))))

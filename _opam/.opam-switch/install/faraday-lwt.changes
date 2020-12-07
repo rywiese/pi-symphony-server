@@ -1,0 +1,19 @@
+added: [
+  "doc/faraday-lwt" {"D"}
+  "doc/faraday-lwt/LICENSE" {"F:S1467T1607302862."}
+  "doc/faraday-lwt/README.md" {"F:S2571T1607302862."}
+  "lib/faraday-lwt" {"D"}
+  "lib/faraday-lwt/META" {"F:S199T1607302861."}
+  "lib/faraday-lwt/dune-package" {"F:S443T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.a" {"F:S5024T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.cma" {"F:S6626T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.cmi" {"F:S892T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.cmt" {"F:S10592T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.cmti" {"F:S5099T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.cmx" {"F:S551T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.cmxa" {"F:S520T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.cmxs" {"F:S15320T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.ml" {"F:S654T1607302861."}
+  "lib/faraday-lwt/faraday_lwt.mli" {"F:S155T1607302861."}
+  "lib/faraday-lwt/opam" {"F:S604T1607302861."}
+]

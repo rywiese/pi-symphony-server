@@ -1,0 +1,19 @@
+added: [
+  "doc/faraday" {"D"}
+  "doc/faraday/LICENSE" {"F:S1467T1607301516."}
+  "doc/faraday/README.md" {"F:S2571T1607301516."}
+  "lib/faraday" {"D"}
+  "lib/faraday/META" {"F:S507T1607301516."}
+  "lib/faraday/dune-package" {"F:S27T1607301516."}
+  "lib/faraday/faraday.a" {"F:S36608T1607301516."}
+  "lib/faraday/faraday.cma" {"F:S69877T1607301516."}
+  "lib/faraday/faraday.cmi" {"F:S6136T1607301516."}
+  "lib/faraday/faraday.cmt" {"F:S149657T1607301516."}
+  "lib/faraday/faraday.cmti" {"F:S49342T1607301516."}
+  "lib/faraday/faraday.cmx" {"F:S5482T1607301516."}
+  "lib/faraday/faraday.cmxa" {"F:S837T1607301516."}
+  "lib/faraday/faraday.cmxs" {"F:S47052T1607301516."}
+  "lib/faraday/faraday.ml" {"F:S13874T1607301516."}
+  "lib/faraday/faraday.mli" {"F:S13210T1607301516."}
+  "lib/faraday/opam" {"F:S1085T1607301516."}
+]

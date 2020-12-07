@@ -1,0 +1,18 @@
+(lang dune 2.7)
+(name multipart-form-data)
+(library
+ (name multipart-form-data)
+ (kind normal)
+ (archives (byte multipart_form_data.cma) (native multipart_form_data.cmxa))
+ (plugins (byte multipart_form_data.cma) (native multipart_form_data.cmxs))
+ (native_archives multipart_form_data.a)
+ (requires lwt stringext)
+ (main_module_name Multipart_form_data)
+ (modes byte native)
+ (modules
+  (singleton
+   (name Multipart_form_data)
+   (obj_name multipart_form_data)
+   (visibility public)
+   (impl)
+   (intf))))
