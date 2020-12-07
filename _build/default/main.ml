@@ -15,6 +15,19 @@ module Person = struct
   ;;
 end
 
+module Speaker = struct
+	type t = { id: string; is_enabled: bool }
+
+	let yojson_of_t t = `Assoc [ "id", `String t.id; "is_enabled", `Bool t.is_enabled ]
+end
+
+module SpeakerService = struct
+	let list_speakers () =
+		let id = "bedroom speaker" in
+		let is_enabled = true in
+		{ Speaker.id; is_enabled }
+end
+
 let print_person_handler req =
   let name = Router.param req "name" in
   let age = Router.param req "age" |> int_of_string in
@@ -43,11 +56,37 @@ let print_param_handler req =
   |> Lwt.return
 ;;
 
+let list_speakers_handler _req =
+	let speaker = SpeakerService.list_speakers () |> Speaker.yojson_of_t in
+	Lwt.return (Response.of_json speaker)
+;;
+
+let list_speakers_handler_old _req =
+	Printf.sprintf "Listing speakers"
+	|> Response.of_plain_text
+	|> Lwt.return
+;;
+
+let enable_speaker_by_id_handler req =
+	Printf.sprintf "Enabling speaker %s\n" (Router.param req "id")
+	|> Response.of_plain_text
+	|> Lwt.return
+;;
+
+let disable_speaker_by_id_handler req =
+	Printf.sprintf "Disabling speaker %s\n" (Router.param req "id")
+	|> Response.of_plain_text
+	|> Lwt.return
+;;
+
 let _ =
-  App.empty
-  |> App.post "/hello/stream" streaming_handler
-  |> App.get "/hello/:name" print_param_handler
-  |> App.get "/person/:name/:age" print_person_handler
-  |> App.patch "/person" update_person_handler
-  |> App.run_command
+	App.empty
+	|> App.get "/speakers" list_speakers_handler
+	|> App.put "/speakers/:id/enable" enable_speaker_by_id_handler
+	|> App.put "/speakers/:id/disable" disable_speaker_by_id_handler
+	|> App.post "/hello/stream" streaming_handler
+	|> App.get "/hello/:name" print_param_handler
+	|> App.get "/person/:name/:age" print_person_handler
+	|> App.patch "/person" update_person_handler
+	|> App.run_command
 ;;
