@@ -1,17 +1,13 @@
 open Data
 open Model
 
-let speaker_from_speaker_yml_entity (speaker : Speaker_yml_entity.t) : Speaker.t =
-	{
-		id = speaker.id;
-		username = speaker.username;
-		host = speaker.host;
-		is_enabled = Ssh_service.is_speaker_enabled speaker
-	}
+let speaker_from_yml_entity (speaker_entity : Speaker_yml_entity.t) : Speaker.t =
+	Ssh_service.is_speaker_enabled speaker_entity
+	|> Speaker.from_speaker_yml_entity speaker_entity
 
 let list_speakers () : Speaker.t list =
 	Yaml_reader.list_speakers ()
-	|> List.map speaker_from_speaker_yml_entity
+	|> List.map speaker_from_yml_entity
 
 let enable_speaker_by_id (id : string) =
 	Yaml_reader.get_speaker_by_id id
