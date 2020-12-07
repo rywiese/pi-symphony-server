@@ -9,8 +9,7 @@ let health_check_handler _req =
 
 let list_speakers_handler _req =
 	Speaker_service.list_speakers ()
-	|> Speaker_response.speaker_list_response_of_speaker_list
-	|> Speaker_response.yojson_of_speaker_list_response
+	|> Speaker_response.yojson_of_speaker_list
 	|> Response.of_json
 	|> Lwt.return
 ;;
