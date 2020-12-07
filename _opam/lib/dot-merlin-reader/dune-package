@@ -1,3 +1,0 @@
-(lang dune 2.7)
-(name dot-merlin-reader)
-(version 3.4.2)

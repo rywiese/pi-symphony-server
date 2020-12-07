@@ -1,7 +1,0 @@
-version = "1.3.2"
-description = ""
-requires = "result"
-archive(byte) = "csexp.cma"
-archive(native) = "csexp.cmxa"
-plugin(byte) = "csexp.cma"
-plugin(native) = "csexp.cmxs"

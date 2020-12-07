@@ -1,3 +1,0 @@
-(lang dune 2.7)
-(name ocaml-syntax-shims)
-(version 1.0.0)
