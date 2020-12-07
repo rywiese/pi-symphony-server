@@ -1,3 +1,5 @@
+open Model
+
 type t = {
 	id: string;
 	is_enabled: bool

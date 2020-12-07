@@ -1,5 +1,8 @@
-open Model
+(* Local libs *)
+open Response
 open Service
+
+(* Opium web toolkit from https://github.com/rgrinberg/opium *)
 open Opium
 
 let health_check_handler _req =
