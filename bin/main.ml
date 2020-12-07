@@ -16,13 +16,6 @@ module Person = struct
   ;;
 end
 
-module SpeakerService = struct
-	let list_speakers () =
-		let id = "bedroom speaker" in
-		let is_enabled = true in
-		{ Speaker.id; is_enabled }
-end
-
 let print_person_handler req =
   let name = Router.param req "name" in
   let age = Router.param req "age" |> int_of_string in
@@ -52,7 +45,7 @@ let print_param_handler req =
 ;;
 
 let list_speakers_handler _req =
-	let speaker = SpeakerService.list_speakers () |> Speaker.yojson_of_speaker in
+	let speaker = Speaker_service.list_speakers () |> Speaker.yojson_of_speaker in
 	Lwt.return (Response.of_json speaker)
 ;;
 
