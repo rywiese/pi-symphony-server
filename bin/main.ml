@@ -14,15 +14,15 @@ let list_speakers_handler _req =
 ;;
 
 let enable_speaker_by_id_handler req =
-	Speaker_endpoint.enable_speaker_by_id (Router.param req "id")
-	|> Response.of_plain_text
-	|> Lwt.return
+	match Speaker_endpoint.enable_speaker_by_id (Router.param req "id") with
+	| Ok text -> Lwt.return (Response.of_plain_text text)
+	| Error e -> Lwt.return (Response.of_plain_text (Printexc.to_string e))
 ;;
 
 let disable_speaker_by_id_handler req =
-	Speaker_endpoint.disable_speaker_by_id (Router.param req "id")
-	|> Response.of_plain_text
-	|> Lwt.return
+	match Speaker_endpoint.disable_speaker_by_id (Router.param req "id") with
+	| Ok text -> Lwt.return (Response.of_plain_text text)
+	| Error e -> Lwt.return (Response.of_plain_text (Printexc.to_string e))
 ;;
 
 let _ =
