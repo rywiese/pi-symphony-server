@@ -1,0 +1,4 @@
+(library
+	(name endpoint)
+	(libraries model service)
+)

@@ -1,31 +1,27 @@
-(* Local libs *)
-open Response
-open Service
-
-(* Opium web toolkit from https://github.com/rgrinberg/opium *)
+open Endpoint
 open Opium
 
 let health_check_handler _req =
-	"Healthy"
+	Speaker_endpoint.health_check ()
 	|> Response.of_plain_text
 	|> Lwt.return
 
 let list_speakers_handler _req =
-	Speaker_service.list_speakers ()
-	|> Speaker_response.yojson_of_speaker_list
+	Speaker_endpoint.list_speakers ()
+	|> Speaker_response.yojson_of_t_list
 	|> Response.of_json
 	|> Lwt.return
 ;;
 
 let enable_speaker_by_id_handler req =
-	Speaker_service.enable_speaker_by_id (Router.param req "id");
-	Response.of_json `Null
+	Speaker_endpoint.enable_speaker_by_id (Router.param req "id")
+	|> Response.of_plain_text
 	|> Lwt.return
 ;;
 
 let disable_speaker_by_id_handler req =
-	Speaker_service.disable_speaker_by_id (Router.param req "id");
-	Response.of_json `Null
+	Speaker_endpoint.disable_speaker_by_id (Router.param req "id")
+	|> Response.of_plain_text
 	|> Lwt.return
 ;;
 
