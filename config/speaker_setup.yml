@@ -1,12 +1,12 @@
-Desk Speakers:
+Desk:
   username: ry
   host: linuxbook
 
-Bedside Speakers:
+Bedside:
   username: ry
   host: pi1
 
-Living Room Speakers:
+Living Room:
   username: ry
   host: pi3
 
