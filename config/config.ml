@@ -1,0 +1,1 @@
+let speaker_setup_file = "config/speaker_setup.yml"
