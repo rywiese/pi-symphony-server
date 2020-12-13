@@ -17,7 +17,9 @@ let enable_speaker_by_id_handler req =
 	try Speaker_endpoint.enable_speaker_by_id (Router.param req "id")
 		|> Response.of_plain_text
 		|> Lwt.return
-	with Not_found -> "Speaker not found"
+	with Not_found ->
+		print_endline (Router.param req "id");
+		"Speaker not found"
 		|> Response.of_plain_text ~status:`Not_found
 		|> Lwt.return
 ;;
