@@ -1,29 +1,30 @@
 open Model
 
-let command = "sudo systemctl status snapclient.service | grep \"Active: active (running)\""
+let is_enabled_command = "sudo systemctl status snapclient.service | grep \"Active: active (running)\""
+let enable_command = "sudo systemctl start snapclient.service"
+let disable_command = "sudo systemctl stop snapclient.service"
 
-
-let is_speaker_enabled (speaker : Speaker_yml_entity.t) : bool =
+let ssh_command host username command =
 	let session = Ssh.init () in
 	let opts = Ssh.Client.({
-		host = speaker.host;
+		host = host;
 		log_level = SSH_LOG_NOLOG;
 		port = 22;
-		username = speaker.username;
+		username = username;
 		auth = Auto;
 	}) in
 	Ssh.Client.connect opts session;
-	session |> Ssh.Client.exec ~command:command |> String.length
+	session |> Ssh.Client.exec ~command:command
+
+let is_speaker_enabled (speaker : Speaker_yml_entity.t) : bool =
+	ssh_command speaker.host speaker.username is_enabled_command
+	|> String.length
 	|> (fun s -> s <> 0)
 
 let enable_speaker (speaker : Speaker_yml_entity.t) : unit =
-	(* Remove the ping when we get the linuxbook network thing figured out... *)
-	Printf.sprintf "ping -t 1 %s; ssh %s@%s sudo systemctl start snapclient.service" speaker.host speaker.username speaker.host
-	|> Sys.command
+	ssh_command speaker.host speaker.username enable_command
 	|> ignore
 
 let disable_speaker (speaker : Speaker_yml_entity.t) : unit =
-	(* Remove the ping when we get the linuxbook network thing figured out... *)
-	Printf.sprintf "ping -t 1 %s; ssh %s@%s sudo systemctl stop snapclient.service" speaker.host speaker.username speaker.host
-	|> Sys.command
+	ssh_command speaker.host speaker.username disable_command
 	|> ignore
