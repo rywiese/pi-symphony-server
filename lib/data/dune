@@ -1,4 +1,4 @@
 (library
 	(name data)
-	(libraries config model yaml.unix)
+	(libraries config model ssh yaml.unix)
 )
