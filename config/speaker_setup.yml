@@ -9,3 +9,7 @@ Bedside:
 Living Room:
   username: ry
   host: pi3
+
+Kitchen:
+  username: ry
+  host: pi4
