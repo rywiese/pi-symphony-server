@@ -17,9 +17,10 @@ let ssh_command host username command =
 	session |> Ssh.Client.exec ~command:command
 
 let is_speaker_enabled (speaker : Speaker_yml_entity.t) : bool =
-	ssh_command speaker.host speaker.username is_enabled_command
-	|> String.length
-	|> (fun s -> s <> 0)
+	try ssh_command speaker.host speaker.username is_enabled_command
+		|> String.length
+		|> (fun s -> s <> 0)
+	with _ -> false
 
 let enable_speaker (speaker : Speaker_yml_entity.t) : unit =
 	ssh_command speaker.host speaker.username enable_command
