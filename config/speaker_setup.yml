@@ -1,10 +1,10 @@
 Desk:
   username: ry
-  host: linuxbook
+  host: pi1
 
 Bedside:
   username: ry
-  host: pi1
+  host: pi2
 
 Living Room:
   username: ry
